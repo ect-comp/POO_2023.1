@@ -1,0 +1,16 @@
+project:
+  title: "Programação Orientada a Objetos - ECT/UFRN"
+  type: website
+  output-dir: .
+
+author: "Prof. Bruno Silva"
+institute: "ECT/UFRN"
+
+format:
+  revealjs:
+    theme: night
+    logo: assets/img/logo_ect.png
+    css: assets/css/logo.css
+    footer: "[ECT2504 - Programação Orientada a Objetos](https://ect-info.github.io/POO_2023.1)"
+    slide-level: 2
+

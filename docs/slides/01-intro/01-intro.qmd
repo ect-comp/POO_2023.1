@@ -1,0 +1,146 @@
+---
+title: "Introdução"
+title-slide-attributes:
+  data-background-image: ../../assets/img/brasao_ufrn_negativo.png
+  data-background-size: "50%, auto, contain"
+  data-background-opacity: "0.05"
+---
+
+## Apresentação
+- Prof. Bruno Silva
+- Atendimento:
+    - Via email: <bruno.silva@ect.ufrn.br>
+    - Via [Discord](https://discord.gg/fxuwfNKe)
+    - Horário para a turma: terças e quintas, das 9:30 às 10:30
+- Áreas de interesse:
+    - Processamento de imagens e visão computacional
+    - Inteligência artificial e robótica
+---
+
+## Por que POO?
+
+- Qual a importância de POO para um desenvolvedor?
+- Ela constitui realmente uma ferramenta importante?
+
+---
+
+## Objetivos
+
+O objetivo do curso é fazer com que os
+estudantes sejam capazes de:
+    
+- Identificar os _conceitos fundamentais_ do paradigma
+  de programação orientado a objetos (POO)
+- Utilizar apropriadamente as técnicas de _modelagem_ e _programação_
+  orientadas a objeto
+- Desenvolver _aplicações_ utilizando o paradigma de POO
+
+---
+
+## Ferramentas
+
+- Ênfase da disciplina: _teoria de POO_
+- Entretanto: linguagem escolhida tem influência na aplicação dos conceitos
+- Python é uma linguagem orientada a objetos de fácil aprendizado
+
+---
+
+## Ferramentas
+
+- [Python 3.X](https://python.org/)
+- IDES:  
+    - [Sublime](https://www.sublimetext.com/)
+    - [Atom](https://atom.io/) 
+    - [Visual Studio Code](https://code.visualstudio.com/)
+    - [PyCharm](https://www.jetbrains.com/pt-br/pycharm)
+    - [vim](https://www.vim.org/)
+    - [Emacs](https://www.gnu.org/software/emacs/)
+- [Jupyter Notebooks](https://jupyter.org/)
+
+---
+
+## Ferramentas
+
+- Aulas
+    - Primeiras 2 aulas da semana: teoria
+    - Últimas 2 aulas da semana: prática
+- Discord
+    - Laboratório virtual, permite discussões assíncronas
+    - Alunos são encorajados a se reunirem em canais de áudio
+    - Perguntas podem ser feitas ao professor de forma privada
+---
+
+## Ementa da Disciplina
+
+_Pilares fundamentais_:
+- Abstração
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+_Conceitos de Programação_:
+- Erros e exceções 
+- Estruturas de dados (listas, dicionários, etc)
+
+Todas as aulas programadas estão cadastradas no SIGAA
+
+---
+
+## Avaliação
+
+- Unidades I e II:
+    - Tarefas (40%)
+    - Prova (60%)
+- Unidade III:
+    - Tarefas (40%)
+    - Projeto (60%)
+
+--- 
+
+## Material bibliográfico
+
+- Livros online:
+    - [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/)
+    - [Object-Oriented Programming in Python](https://python-textbok.readthedocs.io/en/1.0/)
+    - [A Byte of Python](https://python.swaroopch.com/)
+
+- Tutoriais:
+    - [Documentação de Python](https://www.python.org/doc/)
+    - [Real Python](https://realpython.com/)
+
+- Livros:
+    - [Learning Python de Mark Lutz](https://www.amazon.com.br/dp/B00DDZPC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+    - [Python 3 Object Oriented Programming](https://www.amazon.com.br/dp/B005O9OFWQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+--- 
+
+## Material bibliográfico
+
+- Cursos online:
+    - [Python OOP : Four Pillars of OOP in Python 3 for Beginners](https://www.udemy.com/course/python-oops-beginners/)
+
+- Apostilas:
+    - [Caelum](https://www.caelum.com.br/apostila/apostila-python-orientacao-a-objetos.pdf)
+ 
+---
+
+## Comparação com LIP
+
+- Assume-se que você domina os conceitos fundamentais de LiP (variáveis, estruturas de controle e funções).
+
+- POO envolve consideravelmente mais teoria do que LiP
+
+- POO exige também mais proatividade por parte do aluno
+
+---
+
+## Sejam bem-vindos!
+
+**Tarefa** - instalar a distribuição Anaconda:
+- [Windows](https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe)
+- [Linux](https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh)
+
+Em seguida, verifique se o terminal Python está
+funcionando no seu computador
+
+---

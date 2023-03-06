@@ -1,0 +1,6 @@
+title: Programação Orientada a Objetos - ECT/UFRN
+logo: /assets/img/logo_ect.png
+description: Material do semestre 2023.1 de Programação Orientada a Objetos da ECT/UFRN.
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
