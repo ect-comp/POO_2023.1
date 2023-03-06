@@ -172,7 +172,7 @@
     "href": "slides/01-intro/01-intro.html#por-que-poo",
     "title": "Introdução",
     "section": "Por que POO?",
-    "text": "Por que POO?\n\nQual a importância de POO para um desenvolvedor?\nEla constitui realmente uma ferramenta importante?"
+    "text": "Por que POO?\n\nQual a importância de POO para um desenvolvedor?\nEla constitui realmente uma ferramenta importante?\n\n\nSão estas as duas perguntas que cada um de vocês deverá responder ao final do semestre"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#objetivos",
@@ -186,49 +186,49 @@
     "href": "slides/01-intro/01-intro.html#ferramentas",
     "title": "Introdução",
     "section": "Ferramentas",
-    "text": "Ferramentas\n\nÊnfase da disciplina: teoria de POO\nEntretanto: linguagem escolhida tem influência na aplicação dos conceitos\nPython é uma linguagem orientada a objetos de fácil aprendizado"
+    "text": "Ferramentas\nLinguagem\n\nÊnfase da disciplina: teoria de POO\nEntretanto: é necessário escolher uma linguagem para colocar os conceitos em prática\nLinguagem escolhida:\n\n\nPython"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#ferramentas-1",
     "href": "slides/01-intro/01-intro.html#ferramentas-1",
     "title": "Introdução",
     "section": "Ferramentas",
-    "text": "Ferramentas\n\nPython 3.X\nIDES:\n\nSublime\nAtom\nVisual Studio Code\nPyCharm\nvim\nEmacs\n\nJupyter Notebooks"
+    "text": "Ferramentas\nLinguagem Python\n\nLinguagem multi paradigmas\nSuporta o paradigma de POO\nLinguagem de fácil aprendizado"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#ferramentas-2",
     "href": "slides/01-intro/01-intro.html#ferramentas-2",
     "title": "Introdução",
     "section": "Ferramentas",
-    "text": "Ferramentas\n\nAulas\n\nPrimeiras 2 aulas da semana: teoria\nÚltimas 2 aulas da semana: prática\n\nDiscord\n\nLaboratório virtual, permite discussões assíncronas\nAlunos são encorajados a se reunirem em canais de áudio\nPerguntas podem ser feitas ao professor de forma privada"
+    "text": "Ferramentas\n\nPython 3.X\nIDES:\n\nMais simples: Sublime/ Atom\nMais completas: Visual Studio Code/ PyCharm\n\nJupyter Notebooks"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#ementa-da-disciplina",
     "href": "slides/01-intro/01-intro.html#ementa-da-disciplina",
     "title": "Introdução",
     "section": "Ementa da Disciplina",
-    "text": "Ementa da Disciplina\nPilares fundamentais: - Abstração - Encapsulamento - Herança - Polimorfismo\nConceitos de Programação: - Erros e exceções - Estruturas de dados (listas, dicionários, etc)\nTodas as aulas programadas estão cadastradas no SIGAA"
+    "text": "Ementa da Disciplina\nPilares fundamentais:\n\nAbstração\nEncapsulamento\nHerança\nPolimorfismo\n\nConceitos de Programação:\n\nErros e exceções\nEstruturas de dados (listas, dicionários, etc)"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#avaliação",
     "href": "slides/01-intro/01-intro.html#avaliação",
     "title": "Introdução",
     "section": "Avaliação",
-    "text": "Avaliação\n\nUnidades I e II:\n\nTarefas (40%)\nProva (60%)\n\nUnidade III:\n\nTarefas (40%)\nProjeto (60%)"
+    "text": "Avaliação\n\nUnidades I e II:\n\nTarefas (40%)\nProva (60%)\n\nUnidade III:\n\nTarefas (20%)\nProjeto (80%)"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#material-bibliográfico",
     "href": "slides/01-intro/01-intro.html#material-bibliográfico",
     "title": "Introdução",
     "section": "Material bibliográfico",
-    "text": "Material bibliográfico\n\nLivros online:\n\nHow to Think Like a Computer Scientist\nObject-Oriented Programming in Python\nA Byte of Python\n\nTutoriais:\n\nDocumentação de Python\nReal Python\n\nLivros:\n\nLearning Python de Mark Lutz\nPython 3 Object Oriented Programming"
+    "text": "Material bibliográfico\n\nLivros online:\n\nHow to Think Like a Computer Scientist\nObject-Oriented Programming in Python\nA Byte of Python\n\nTutoriais:\n\nDocumentação de Python\nReal Python"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#material-bibliográfico-1",
     "href": "slides/01-intro/01-intro.html#material-bibliográfico-1",
     "title": "Introdução",
     "section": "Material bibliográfico",
-    "text": "Material bibliográfico\n\nCursos online:\n\nPython OOP : Four Pillars of OOP in Python 3 for Beginners\n\nApostilas:\n\nCaelum"
+    "text": "Material bibliográfico\n\nLivros:\n\nLearning Python\nPython 3 Object Oriented Programming"
   },
   {
     "objectID": "slides/01-intro/01-intro.html#comparação-com-lip",
@@ -242,7 +242,7 @@
     "href": "slides/01-intro/01-intro.html#sejam-bem-vindos",
     "title": "Introdução",
     "section": "Sejam bem-vindos!",
-    "text": "Sejam bem-vindos!\nTarefa - instalar a distribuição Anaconda: - Windows - Linux\nEm seguida, verifique se o terminal Python está funcionando no seu computador"
+    "text": "Sejam bem-vindos!\nTarefa - instalar a distribuição Anaconda:\n\nWindows\nLinux\n\nEm seguida, verifique se o terminal Python está funcionando no seu computador"
   },
   {
     "objectID": "slides/01-intro/X_01-intro.html#linguagem-de-programação",
@@ -390,5 +390,26 @@
     "title": "Introdução",
     "section": "Dúvidas",
     "text": "Dúvidas\n\nMensagem via Discord\nEmail: bruno.silva@ect.ufrn.br\n\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/01-intro/01-intro.html#ferramentas-3",
+    "href": "slides/01-intro/01-intro.html#ferramentas-3",
+    "title": "Introdução",
+    "section": "Ferramentas",
+    "text": "Ferramentas\n\nAulas\n\nPrimeiras 2 aulas da semana: teoria\nÚltimas 2 aulas da semana: prática\n\nDiscord\n\nLaboratório virtual: alunos são encorajados a se reunirem em canais de áudio\nPerguntas podem ser feitas ao professor ou a todos da turma"
+  },
+  {
+    "objectID": "slides/01-intro/01-intro.html#material-bibliográfico-2",
+    "href": "slides/01-intro/01-intro.html#material-bibliográfico-2",
+    "title": "Introdução",
+    "section": "Material bibliográfico",
+    "text": "Material bibliográfico\n\nCursos online:\n\nPython OOP : Four Pillars of OOP in Python 3 for Beginners\n\nApostilas:\n\nCaelum"
+  },
+  {
+    "objectID": "slides/01-intro/01-intro.html#ementa-da-disciplina-1",
+    "href": "slides/01-intro/01-intro.html#ementa-da-disciplina-1",
+    "title": "Introdução",
+    "section": "Ementa da Disciplina",
+    "text": "Ementa da Disciplina\nTodas as aulas programadas estão cadastradas no SIGAA"
   }
 ]

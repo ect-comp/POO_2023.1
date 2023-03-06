@@ -22,6 +22,11 @@ title-slide-attributes:
 - Qual a importância de POO para um desenvolvedor?
 - Ela constitui realmente uma ferramenta importante?
 
+. . .
+
+São estas as duas perguntas que cada um de vocês deverá
+responder ao final do semestre
+
 ---
 
 ## Objetivos
@@ -38,23 +43,36 @@ estudantes sejam capazes de:
 ---
 
 ## Ferramentas
+#### Linguagem
 
 - Ênfase da disciplina: _teoria de POO_
-- Entretanto: linguagem escolhida tem influência na aplicação dos conceitos
-- Python é uma linguagem orientada a objetos de fácil aprendizado
+- Entretanto: é necessário escolher uma linguagem para colocar os
+conceitos em prática
+- Linguagem escolhida:
+
+. . .
+
+Python
+
+---
+
+## Ferramentas
+#### Linguagem Python
+
+- Linguagem multi paradigmas
+- Suporta o paradigma de POO
+- Linguagem de fácil aprendizado
 
 ---
 
 ## Ferramentas
 
 - [Python 3.X](https://python.org/)
-- IDES:  
-    - [Sublime](https://www.sublimetext.com/)
-    - [Atom](https://atom.io/) 
-    - [Visual Studio Code](https://code.visualstudio.com/)
-    - [PyCharm](https://www.jetbrains.com/pt-br/pycharm)
-    - [vim](https://www.vim.org/)
-    - [Emacs](https://www.gnu.org/software/emacs/)
+- IDES:
+    - Mais simples: [Sublime](https://www.sublimetext.com/)/
+    [Atom](https://atom.io/) 
+    - Mais completas: [Visual Studio Code](https://code.visualstudio.com/)/
+    [PyCharm](https://www.jetbrains.com/pt-br/pycharm)
 - [Jupyter Notebooks](https://jupyter.org/)
 
 ---
@@ -65,22 +83,26 @@ estudantes sejam capazes de:
     - Primeiras 2 aulas da semana: teoria
     - Últimas 2 aulas da semana: prática
 - Discord
-    - Laboratório virtual, permite discussões assíncronas
-    - Alunos são encorajados a se reunirem em canais de áudio
-    - Perguntas podem ser feitas ao professor de forma privada
+    - Laboratório virtual: alunos são encorajados a se reunirem em canais de áudio
+    - Perguntas podem ser feitas ao professor ou a todos da turma
 ---
 
 ## Ementa da Disciplina
 
-_Pilares fundamentais_:
+Pilares fundamentais:
+
 - Abstração
 - Encapsulamento
 - Herança
 - Polimorfismo
 
-_Conceitos de Programação_:
+Conceitos de Programação:
+
 - Erros e exceções 
 - Estruturas de dados (listas, dicionários, etc)
+---
+
+## Ementa da Disciplina
 
 Todas as aulas programadas estão cadastradas no SIGAA
 
@@ -92,8 +114,8 @@ Todas as aulas programadas estão cadastradas no SIGAA
     - Tarefas (40%)
     - Prova (60%)
 - Unidade III:
-    - Tarefas (40%)
-    - Projeto (60%)
+    - Tarefas (20%)
+    - Projeto (80%)
 
 --- 
 
@@ -107,9 +129,12 @@ Todas as aulas programadas estão cadastradas no SIGAA
 - Tutoriais:
     - [Documentação de Python](https://www.python.org/doc/)
     - [Real Python](https://realpython.com/)
+---
+
+## Material bibliográfico
 
 - Livros:
-    - [Learning Python de Mark Lutz](https://www.amazon.com.br/dp/B00DDZPC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+    - [Learning Python](https://www.amazon.com.br/dp/B00DDZPC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
     - [Python 3 Object Oriented Programming](https://www.amazon.com.br/dp/B005O9OFWQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 
 --- 
@@ -137,6 +162,7 @@ Todas as aulas programadas estão cadastradas no SIGAA
 ## Sejam bem-vindos!
 
 **Tarefa** - instalar a distribuição Anaconda:
+
 - [Windows](https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe)
 - [Linux](https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh)
 
