@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>ECT2540 - Programação Orientada a Objetos</title>
+
+        <link rel="stylesheet" href="../dist/reveal.css">
+        <link rel="stylesheet" href="../dist/theme/ect.css" id="theme">
+        <link rel="stylesheet" href="../plugin/highlight/monokai.css">
+    </head>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    .left_logo {
+      display: inline-block;
+      float: left;
+      width: 20%;
+      padding: 10px;
+    }
+    .information {
+      display: inline-block;
+      width: 80%;
+      padding: 40px;
+    }
+    </style>
+
+    <body>
+
+        <div class="reveal">
+            <div class="footer">
+                <div class="left_logo">
+                    <img src="../img/logo_ect.png" width="100px">
+                </div>
+                <div class="information">
+                    <div>ECT2540 - Programação Orientada a Objetos</div>
+                    <div>Prof. Bruno Silva (bruno.silva@ect.ufrn.br)</div>
+                    <div>UFRN - ECT</div>
+                </div>
+            </div>
+
+            <div class="slides">
+                <section 
+                         data-auto-animate
+                         data-markdown="content.md"
+                         data-separator="---"
+                         data-separator-vertical="--"
+                         data-separator-notes="^Note:"
+                         data-charset="utf8">
+                </section>
+            </div>
+        </div>
+
+        <script src="../dist/reveal.js"></script>
+        <script src="../plugin/markdown/markdown.js"></script>
+        <script src="../plugin/highlight/highlight.js"></script>
+        <script src="../plugin/notes/notes.js"></script>
+
+        <script>
+
+            Reveal.initialize({
+                            controls: true,
+                            progress: true,
+                            history: true,
+                            center: true,
+                            autoPlayMedia: true,
+                            plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+                        });
+
+        </script>
+
+    </body>
+</html>

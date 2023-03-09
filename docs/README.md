@@ -5,14 +5,15 @@
  - Metodologia
  - Bibliografia
 
-<!--
-## [02 - 31/03 - Python Básico](./02-python-basico)
+## [09/03 - Python Básico](./slides/02-python-basico/02-python-basico.html)
  - Variáveis e tipos
  - Operadores e expressões
  - Entrada e saída
  - Estruturas de Controle
 
-Anotações e exercícios da aula (Jupyter notebook) [02-Python-Basico.ipynb](./02-python-basico/02-Python-Basico.ipynb)
+Notas de aula e exercícios (Jupyter notebook) [02-Python-Basico.ipynb](./02-python-basico/02-Python-Basico.ipynb)
+
+<!--
 
 ## [03 - 05/04 - Classes, objetos e abstração](./03-classes-objetos/)
  - Classes, atributos e métodos

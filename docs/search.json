@@ -411,5 +411,124 @@
     "title": "Introdução",
     "section": "Ementa da Disciplina",
     "text": "Ementa da Disciplina\nTodas as aulas programadas estão cadastradas no SIGAA"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#objetivos",
+    "href": "slides/02-python-basico/02-python-basico.html#objetivos",
+    "title": "Python Básico",
+    "section": "Objetivos",
+    "text": "Objetivos\nO objetivo da aula é introduzir comandos básicos em Python:\n\nTerminal interativo de comandos\nVariáveis e tipos\nOperadores e expressões\nEntrada e saída\nControle de fluxo (if, while, for) —"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#a-linguagem-python",
+    "href": "slides/02-python-basico/02-python-basico.html#a-linguagem-python",
+    "title": "Python Básico",
+    "section": "A Linguagem Python",
+    "text": "A Linguagem Python\n\nCriada no início dos anos 90 (Guido van Rossum)\nAplicações:\n\nLinguagem de script (auxiliar)\nAplicações das grandes indústrias (Google, Dropbox, Intel, Netflix, etc.)\nAplicações científicas (NASA, Robot Operating System, etc.)\nBibliotecas de IA: Deep learning (PyTorch, TensorFlow) —"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-1",
+    "href": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-1",
+    "title": "Python Básico",
+    "section": "A Linguagem Python",
+    "text": "A Linguagem Python\nPor que Python?\n\nSimplicidade\nFacilidade de aprendizado e de correção de erros\nCódigo limpo\nCódigo multiplataforma (Linux/Mac/Windows)\nSuporta o paradigma de programação orientada a objetos"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-2",
+    "href": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-2",
+    "title": "Python Básico",
+    "section": "A Linguagem Python",
+    "text": "A Linguagem Python\n\nÉ uma linguagem interpretada\nSuporta um terminal de comandos interativo\n\nQualquer comando da linguagem pode ser executado\n\nAgiliza a programação\nFacilita a depuração de erros"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-3",
+    "href": "slides/02-python-basico/02-python-basico.html#a-linguagem-python-3",
+    "title": "Python Básico",
+    "section": "A Linguagem Python",
+    "text": "A Linguagem Python\nInstalação (Windows e Linux):\n\nBaixar a distribuição Anaconda para Python\n\nWindows\nLinux\n\nInstalar a distribuição\nExecutar terminal Python"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#teste-vídeo",
+    "href": "slides/02-python-basico/02-python-basico.html#teste-vídeo",
+    "title": "Python Básico",
+    "section": "Teste Vídeo",
+    "text": "Teste Vídeo"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#terminal-de-comandos-interativo",
+    "href": "slides/02-python-basico/02-python-basico.html#terminal-de-comandos-interativo",
+    "title": "Python Básico",
+    "section": "Terminal de Comandos Interativo",
+    "text": "Terminal de Comandos Interativo"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#arquivos-.py",
+    "href": "slides/02-python-basico/02-python-basico.html#arquivos-.py",
+    "title": "Python Básico",
+    "section": "Arquivos .py",
+    "text": "Arquivos .py"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#jupyter-notebook",
+    "href": "slides/02-python-basico/02-python-basico.html#jupyter-notebook",
+    "title": "Python Básico",
+    "section": "Jupyter Notebook",
+    "text": "Jupyter Notebook"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#zen-do-python",
+    "href": "slides/02-python-basico/02-python-basico.html#zen-do-python",
+    "title": "Python Básico",
+    "section": "Zen do python",
+    "text": "Zen do python\nimport this\nThe Zen of Python, by Tim Peters\n\nBeautiful is better than ugly.\nExplicit is better than implicit.\nSimple is better than complex.\nComplex is better than complicated.\nFlat is better than nested.\nReadability counts.\nIf the implementation is hard to explain, it's a bad idea."
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c",
+    "href": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c",
+    "title": "Python Básico",
+    "section": "Diferenças de Python para C++",
+    "text": "Diferenças de Python para C++\n\nTipos das variáveis determinados automaticamente:\n\n x = 4 \n type(x) # int\n s = \"alo\"\n type(s) # str"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-1",
+    "href": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-1",
+    "title": "Python Básico",
+    "section": "Diferenças de Python para C++",
+    "text": "Diferenças de Python para C++\n\nIndentação obrigatória:\n\nif x % 2 == 0:\n    cont_par += 1 # Código indentado\nelse:\n    cont_impar += 1 # Código indentado"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-2",
+    "href": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-2",
+    "title": "Python Básico",
+    "section": "Diferenças de Python para C++",
+    "text": "Diferenças de Python para C++\n\n; não é necessário\n\n i = 5\n i +=1\n print(i)"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-3",
+    "href": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-3",
+    "title": "Python Básico",
+    "section": "Diferenças de Python para C++",
+    "text": "Diferenças de Python para C++\n\nLaços for:\n\nC++:\n\nfor(int i=0; i < n; i++){\n  cout << i << endl;\n}\n\nPython:\n\nfor i in range(0,n): # até n-1\n  print(i)"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-4",
+    "href": "slides/02-python-basico/02-python-basico.html#diferenças-de-python-para-c-4",
+    "title": "Python Básico",
+    "section": "Diferenças de Python para C++",
+    "text": "Diferenças de Python para C++\n\nErros que não sejam de sintaxe só são reconhecidos se o código for executado\n\nx = 50\ny = 100\n\nif x % 2 == 0:\n    print('x é par')\n    print(y)\nelse:\n    print('x não é par')\n    print(z) # z não foi declarado"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#jupyter-notebook-1",
+    "href": "slides/02-python-basico/02-python-basico.html#jupyter-notebook-1",
+    "title": "Python Básico",
+    "section": "Jupyter Notebook",
+    "text": "Jupyter Notebook\nRoteiro com comandos básicos Python e exercícios:\n02-Python-Basico"
+  },
+  {
+    "objectID": "slides/02-python-basico/02-python-basico.html#editando-arquivos-.py",
+    "href": "slides/02-python-basico/02-python-basico.html#editando-arquivos-.py",
+    "title": "Python Básico",
+    "section": "Editando Arquivos .py",
+    "text": "Editando Arquivos .py"
   }
 ]
