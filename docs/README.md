@@ -11,7 +11,7 @@
  - Entrada e saída
  - Estruturas de Controle
 
-Notas de aula e exercícios (Jupyter notebook) [02-Python-Basico.ipynb](./02-python-basico/02-Python-Basico.ipynb)
+Notas de aula e exercícios: [02-Python-Basico.ipynb](./slides/02-python-basico/02-Python-Basico.ipynb)
 
 <!--
 
