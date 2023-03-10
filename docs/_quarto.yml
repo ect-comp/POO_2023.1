@@ -8,7 +8,7 @@ institute: "ECT/UFRN"
 
 format:
   revealjs:
-    theme: night
+    theme: default
     logo: assets/img/logo_ect.png
     css: assets/css/logo.css
     footer: "[ECT2504 - Programação Orientada a Objetos](https://ect-info.github.io/POO_2023.1)"

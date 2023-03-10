@@ -530,5 +530,145 @@
     "title": "Python Básico",
     "section": "Editando Arquivos .py",
     "text": "Editando Arquivos .py"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#objetivos",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#objetivos",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Objetivos",
+    "text": "Objetivos\nNesta aula, você aprenderá:\n\nA definir uma classe\nA adicionar atributos, métodos e construtores a uma classe\nNovos comandos básicos de Python"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#classes-e-abstrações",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#classes-e-abstrações",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Classes e Abstrações",
+    "text": "Classes e Abstrações\nConsidere um carro:\n\nQuais são as características de um carro?\nQue coisas um carro pode “fazer”?\nTodos os carros alcançam a mesma velocidade?\n\n\n\nFoto: Revista carro"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Programação Orientada a Objetos",
+    "text": "Programação Orientada a Objetos\nEnvolve implementar programas que possuem objetos interagindo entre si:\n\nDiferentemente de programação estruturada onde funções/comandos interagem entre si"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Programação Orientada a Objetos",
+    "text": "Programação Orientada a Objetos\nQualquer coisa pode ser um objeto:\n\n“Coisas” do mundo real (carro, casa, avião, animal, etc.)\nGrandezas matemáticas (vetor, matriz, polinômio, etc.)\nAbstrações no contexto de um problema (gerenciador de banco de dados, gerenciador de conexões, fábrica de personagens, etc.)"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#classes",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#classes",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Classes",
+    "text": "Classes\n\nSão abstrações para agrupar objetos que têm um comportamento comum\nDescrevem de maneira abstrata o comportamento dos objetos\nÉ uma especificação para objetos daquela classe, similar a uma planta baixa"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#classes-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#classes-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Classes",
+    "text": "Classes\n\n\n\n\n\n\nA palavra classe vem da taxonomia da biologia. Todos os seres vivos de uma mesma classe biológica têm uma série de atributos e comportamentos em comum, mas eles não são iguais, podem variar nos valores desses atributos e como realizam esses comportamentos."
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#objetos",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#objetos",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Objetos",
+    "text": "Objetos\n\nSão instâncias de uma classe\n\nUm Chevrolet Onix é uma instância da classe Carro\n\nEncapsulam um estado:\n\nConjunto de valores que os atributos possuem\nPor exemplo, uma instância da classe Carro pode ter potência igual a 90, marca Chevrolet, etc."
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#objetos-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#objetos-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Objetos",
+    "text": "Objetos\n\nPossuem um comportamento definido através dos seus métodos\n\nMétodos são funções chamadas/executadas por um objeto\nTêm os seus métodos chamados para executar uma ação no programa"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#atributo-e-estado",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#atributo-e-estado",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Atributo e Estado",
+    "text": "Atributo e Estado\nO estado de um objeto está definido pelos valores dos atributos de classe\nOs tipos dos atributos podem ser:\n\nTipos que a linguagem fornece: int, float, str, etc.\nTipos definidos pelo usuário (outras classes)"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#atributo-e-estado-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#atributo-e-estado-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Atributo e Estado",
+    "text": "Atributo e Estado\nO estado de um objeto é definido pelos valores dos seus atributos:\n\n\n\n\nClass Carro:\n // Atributos\n  - marca\n  - potencia"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#tipos-estruturados-vs-poo",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#tipos-estruturados-vs-poo",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Tipos Estruturados vs POO",
+    "text": "Tipos Estruturados vs POO\nConsidere a classe Circulo:\n\nQuais são as características de um círculo ?\n\nEm C++ provavelmente definiríamos o tipo estruturado:\nstruct Circulo{\n    double x,y; // Coordenadas do centro\n    double raio; //Raio\n };"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#tipos-estruturados-vs-poo-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#tipos-estruturados-vs-poo-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Tipos Estruturados vs POO",
+    "text": "Tipos Estruturados vs POO\nEntretanto, o tipo Circulo definido como struct:\n\nÉ utilizado apenas para armazenar dados\nNão tem um comportamento definido\n\nPara isto, existem classes!"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#classes-em-python",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#classes-em-python",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Classes em Python",
+    "text": "Classes em Python\nEm Python, tudo é um objeto:\n>>> type(5)\n< class 'int' >\n>>> type(\"alo\")\n< class 'str' >\n\n\n\n\n\n\nVariáveis possuem tipos == objetos possuem classes"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#variáveis-possuem-tipos-objetos-possuem-classes",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#variáveis-possuem-tipos-objetos-possuem-classes",
+    "title": "Classes, Objetos e Abstração",
+    "section": ">> Variáveis possuem tipos == objetos possuem classes",
+    "text": ">> Variáveis possuem tipos == objetos possuem classes"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-2",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-2",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Programação Orientada a Objetos",
+    "text": "Programação Orientada a Objetos\nProgramar orientado a objetos envolve:\n\nIdentificar classes que agrupam objetos com um comportamento comum\nIdentificar os atributos que cada objeto deve armazenar\nIdentificar como os objetos devem se comportar\nIdentificar como os objetos do sistema devem interagir entre si"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-3",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#programação-orientada-a-objetos-3",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Programação Orientada a Objetos",
+    "text": "Programação Orientada a Objetos\n\n\n\nSe eu identifiquei que classes (objetos) o meu programa deve ter, como saber que atributos e métodos estas classes devem ter?"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#primeiro-pilar-de-poo-abstração",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#primeiro-pilar-de-poo-abstração",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Primeiro pilar de POO: Abstração",
+    "text": "Primeiro pilar de POO: Abstração\nAbstração: escolher os aspetos mais relevantes para as classes/objetos a serem implementados\n\nSimplicidade: atributos irrelevantes devem ser ignorados\nDividir e conquistar: o propósito de uma classe deve estar bem definido\n\nImplemente várias classes com propósitos diferentes, uma utilizando a outra, se for o caso"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#primeiro-pilar-de-poo-abstração-1",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#primeiro-pilar-de-poo-abstração-1",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Primeiro pilar de POO: Abstração",
+    "text": "Primeiro pilar de POO: Abstração\n\nImagem: The Cat as a Metaphor in OO Software Development"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#imagem-de-the-cat-as-a-metaphor-in-oo-software-development",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#imagem-de-the-cat-as-a-metaphor-in-oo-software-development",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Imagem de The Cat as a Metaphor in OO Software Development",
+    "text": "Imagem de The Cat as a Metaphor in OO Software Development"
+  },
+  {
+    "objectID": "slides/03-classes-objetos/03-classes-objetos.html#jupyter-notebook",
+    "href": "slides/03-classes-objetos/03-classes-objetos.html#jupyter-notebook",
+    "title": "Classes, Objetos e Abstração",
+    "section": "Jupyter Notebook",
+    "text": "Jupyter Notebook\n03-Classes-Objetos"
   }
 ]
