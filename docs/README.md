@@ -13,7 +13,7 @@
 
 Notas de aula e exercícios: [02-Python-Basico.ipynb](./slides/02-python-basico/02-Python-Basico.ipynb)
 
-## [14/03 - Classes, objetos e abstração](./slides/03-classes-objetos/03-classes-objetos.html)
+## [28/03 - Classes, objetos e abstração](./slides/03-classes-objetos/03-classes-objetos.html)
  - Classes, atributos e métodos
  - Objetos
  - Classes em Python
