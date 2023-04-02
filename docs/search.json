@@ -670,5 +670,138 @@
     "title": "Classes, Objetos e Abstração",
     "section": "Jupyter Notebook",
     "text": "Jupyter Notebook\n03-Classes-Objetos"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#revisão",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#revisão",
+    "title": "Encapsulamento",
+    "section": "Revisão",
+    "text": "Revisão\nClasse: abstração para agrupar objetos comuns\nObjetos: instâncias de uma classe"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#revisão-1",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#revisão-1",
+    "title": "Encapsulamento",
+    "section": "Revisão",
+    "text": "Revisão\n\nAtributos: características da entidade sendo modelada\nMétodos: definem o comportamento\nInicializaodor: inicializa os atributos (construtor em outras linguagens)\nself: referência que um objeto tem dele mesmo"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#objetivos",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#objetivos",
+    "title": "Encapsulamento",
+    "section": "Objetivos",
+    "text": "Objetivos\nAula de hoje:\n\nEncapsulamento: segundo pilar de POO\nSetters/getters e @property: primeiro decorador em Python"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento",
+    "title": "Encapsulamento",
+    "section": "Encapsulamento",
+    "text": "Encapsulamento\n\nCapacidade de esconder informações (dados) nos objetos\n\n\nAlguns atributos/métodos são usados apenas como parte da lógica da implementação da classe\nEstes atributos/métodos devem ser impedidos de serem utilizados fora da classe"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#interface-pública-de-uma-classe",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#interface-pública-de-uma-classe",
+    "title": "Encapsulamento",
+    "section": "Interface Pública de uma Classe",
+    "text": "Interface Pública de uma Classe\n\nToda classe tem uma interface pública: conjunto de métodos que devem ser chamados para que objetos de uma classe sejam utilizados\nA interface pública da classe informa ao usuário da classe como ele deve utilizá-la\n\nUsuário da classe é quem utiliza a classe e portanto é um programador\nUsuário da classe não é o mesmo que o usuário do programa (que é uma pessoa que não necessariamente entende de programação)"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-1",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-1",
+    "title": "Encapsulamento",
+    "section": "Encapsulamento",
+    "text": "Encapsulamento\n\nAs classes devem expôr o mínimo necessário para serem utilizadas\n\nSimilar a funções: os dados mínimos que elas precisam são os parâmetros e as suas variáveis locais não ficam acessíveis por quem as chama"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso",
+    "title": "Encapsulamento",
+    "section": "Modificadores de Acesso",
+    "text": "Modificadores de Acesso\nOs modificadores de acesso valem para atributos e métodos:\n\nPúblico: o atributo/método pode ser acessado/chamado de dentro ou fora da classe\nPrivado: o atributo/método só pode ser acessado/chamado de dentro da classe; ele não é herdado pelas subclasses\nProtegido: o atributo/método só pode ser acessado/chamado de dentro da classe; ele é herdado pelas subclasses"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso-1",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso-1",
+    "title": "Encapsulamento",
+    "section": "Modificadores de Acesso",
+    "text": "Modificadores de Acesso\nA implementação dos modificadores:\n\nÉ dependente da linguagem:\n\nC++ e Java usam palavras chave private e public"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso-2",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#modificadores-de-acesso-2",
+    "title": "Encapsulamento",
+    "section": "Modificadores de Acesso",
+    "text": "Modificadores de Acesso\nExemplo em Java\npublic class Pessoa\n{\n    // Atributos\n    private String nome;\n    private int idade;\n\n    // Método público\n    public void cumprimenta(Pessoa outro)\n    {\n      ...\n    }\n}\nEm Python, não é assim que funciona. Mais sobre isto no notebook da aula."
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento",
+    "title": "Encapsulamento",
+    "section": "Exemplo: Estacionamento",
+    "text": "Exemplo: Estacionamento\nPara motivar a necessidade de encapsulamento, vamos pensar em uma classe para denotar um estacionamento"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-1",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-1",
+    "title": "Encapsulamento",
+    "section": "Exemplo: Estacionamento",
+    "text": "Exemplo: Estacionamento\n\nUm estacionamento tem capacidade para um número n > 0 de vagas.\nDevemos controlar quantos carros estão dentro do estacionamento.\nOs carros podem entrar só se há vagas disponíveis."
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-2",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-2",
+    "title": "Encapsulamento",
+    "section": "Exemplo: Estacionamento",
+    "text": "Exemplo: Estacionamento\nNesse sistema podemos identificar:\n\nClasses: Carros e o estacionamento (vamos ignorar os carros neste exemplo)\nAtributos: número de vagas, capacidade máxima\nMétodos: O estacionamento pode registrar uma entrada e uma saída de um carro. Além disso, o estacionamento deve fornecer o número de vagas disponíveis."
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-3",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-3",
+    "title": "Encapsulamento",
+    "section": "Exemplo: Estacionamento",
+    "text": "Exemplo: Estacionamento\nPergunta: o usuário da classe Estacionamento deveria modificar diretamente o atributo vagas?\nPara responder, pense na consistência do objeto Estacionamento. Ela pode ser mantida dessa forma?"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-2",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-2",
+    "title": "Encapsulamento",
+    "section": "Encapsulamento",
+    "text": "Encapsulamento\n\nOs usuários da classe só podem acessar os atributos e métodos públicos da classe\nAo chamar um método, o usuário da classe pode ignorar como ele foi implementado\n\nBasta que ele saiba o que deve ser passado como parâmetro e qual o retorno do método para chamá-lo\n\nFacilita a manutenção e reaproveitamento do código"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-em-python",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-em-python",
+    "title": "Encapsulamento",
+    "section": "Encapsulamento em Python",
+    "text": "Encapsulamento em Python\n04-Encapsulamento\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#relembrando",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#relembrando",
+    "title": "Encapsulamento",
+    "section": "Relembrando",
+    "text": "Relembrando\nClasse: abstração para agrupar objetos comuns\nObjetos: instâncias de uma classe"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#relembrando-1",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#relembrando-1",
+    "title": "Encapsulamento",
+    "section": "Relembrando",
+    "text": "Relembrando\n\nAtributos: características da entidade sendo modelada\nMétodos: definem o comportamento\nInicializador: inicializa os atributos (construtor em outras linguagens)\nself: referência que um objeto tem dele mesmo"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-3",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#encapsulamento-3",
+    "title": "Encapsulamento",
+    "section": "Encapsulamento",
+    "text": "Encapsulamento\nUtilizado para:\n\nEsconder os atributos de uma classe\nEsconder como funcionam os métodos da classe\nFacilitar o reaproveitamento de código\nGarantir a consistência (do estado) dos objetos"
+  },
+  {
+    "objectID": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-4",
+    "href": "slides/04-encapsulamento/04-encapsulamento.html#exemplo-estacionamento-4",
+    "title": "Encapsulamento",
+    "section": "Exemplo: Estacionamento",
+    "text": "Exemplo: Estacionamento\nA resposta é Não!: o valor do atributo vagas não deve ser modificado diretamente.\n\nIsto deve ser feito exclusivamente utilizando chamada aos método que informam que um carro entrou ou saiu do estacionamento. Estes métodos, por sua vez, são quem deve alterar o a quantidade de vagas do estacionamento."
   }
 ]

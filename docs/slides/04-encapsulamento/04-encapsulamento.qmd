@@ -1,0 +1,177 @@
+---
+title: "Encapsulamento"
+title-slide-attributes:
+  data-background-image: ../../assets/img/brasao_ufrn_positivo.png
+  data-background-size: "50%, auto, contain"
+  data-background-opacity: "0.05"
+---
+
+## Relembrando
+
+**Classe**: abstração para agrupar objetos comuns
+
+**Objetos**: instâncias de uma classe
+
+---
+
+## Relembrando
+
+- **Atributos**: características da entidade sendo modelada
+- **Métodos**: definem o *comportamento*
+- **Inicializador**: inicializa os atributos (construtor em outras linguagens)
+- `self`: referência que um objeto tem dele mesmo
+---
+
+## Objetivos
+
+Aula de hoje:
+
+  - _Encapsulamento_: __segundo pilar__ de POO
+  - Setters/getters e `@property`: primeiro decorador em Python
+---
+
+## Encapsulamento
+
+> Capacidade de esconder informações (dados) nos objetos
+
+- Alguns atributos/métodos são usados apenas como parte
+  da lógica da implementação da classe
+- Estes atributos/métodos devem ser impedidos de 
+  serem utilizados fora da classe
+
+---
+
+## Encapsulamento
+
+- As classes devem __expôr o mínimo necessário__ para serem utilizadas
+    -  Similar a funções: os dados mínimos que elas precisam são os parâmetros
+       e as suas variáveis locais não ficam acessíveis por quem as chama
+---
+
+## Interface Pública de uma Classe
+
+- Toda classe tem uma **interface pública**: conjunto de métodos
+  que devem ser chamados para que objetos de uma classe sejam
+  utilizados
+- A interface pública da classe informa ao **usuário da classe**
+  como ele deve utilizá-la
+    - Usuário da classe é quem utiliza a classe e portanto é
+      um programador
+    - Usuário da classe não é o mesmo que o usuário do programa
+      (que é uma pessoa que não necessariamente entende de programação)
+---
+
+## Encapsulamento
+
+- Os usuários da classe só podem acessar os atributos e
+  métodos **públicos** da classe
+- Ao chamar um método, o usuário da classe pode ignorar
+  como ele foi implementado
+  - Basta que ele saiba o que deve ser passado como parâmetro
+    e qual o retorno do método para chamá-lo
+- Facilita a manutenção e reaproveitamento do código
+---
+
+## Modificadores de Acesso
+
+Os __modificadores de acesso__ valem para atributos e métodos:
+
+- __Público__:  o atributo/método pode ser acessado/chamado de dentro ou
+  fora da classe
+- __Privado__: o atributo/método só pode ser acessado/chamado de dentro da
+  classe; ele não é herdado pelas subclasses
+- __Protegido__: o atributo/método só pode ser acessado/chamado de dentro da
+  classe; ele é herdado pelas subclasses
+---
+
+## Modificadores de Acesso
+
+A implementação dos modificadores:
+
+- É dependente da linguagem:
+  - C++ e Java usam palavras chave `private` e `public`
+
+---
+
+## Modificadores de Acesso
+#### Exemplo em Java
+
+```java
+public class Pessoa
+{
+    // Atributos
+    private String nome;
+    private int idade;
+
+    // Método público
+    public void cumprimenta(Pessoa outro)
+    {
+      ...
+    }
+}
+```
+
+Em Python, não é assim que funciona. Mais sobre isto no
+notebook da aula. 
+---
+
+## Exemplo: Estacionamento
+
+Para motivar a necessidade de encapsulamento, vamos pensar em
+uma classe para denotar um estacionamento
+
+---
+
+## Exemplo: Estacionamento
+
+- Um estacionamento tem capacidade para um número n > 0 de vagas. 
+- Devemos controlar quantos carros estão dentro do estacionamento. 
+- Os carros podem entrar só se há vagas disponíveis.
+
+---
+
+## Exemplo: Estacionamento
+
+Nesse sistema podemos identificar:
+
+- _Classes_: Carros e o estacionamento (vamos ignorar os carros neste exemplo)
+- _Atributos_: número de vagas, capacidade máxima
+- _Métodos_: O estacionamento pode registrar uma entrada e uma saída de um carro.
+             Além disso, o estacionamento deve fornecer o número de vagas disponíveis.
+
+--- 
+
+## Exemplo: Estacionamento
+
+Pergunta: o usuário da classe `Estacionamento` deveria __modificar diretamente__
+o atributo `vagas`?
+
+Para responder, pense na consistência do objeto 
+`Estacionamento`. Ela pode ser mantida dessa forma?
+
+---
+
+## Exemplo: Estacionamento
+
+A resposta é *Não!*: o valor do atributo _vagas_ não deve ser modificado diretamente.
+
+> Isto deve ser feito exclusivamente utilizando chamada aos método
+> que informam que um carro entrou ou saiu do estacionamento.
+> Estes métodos, por sua vez, são quem deve alterar o a quantidade
+> de vagas do estacionamento.
+
+---
+
+## Encapsulamento
+
+Utilizado para:
+
+- *Esconder* os atributos de uma classe
+- *Esconder* como funcionam os métodos da classe
+- *Facilitar o reaproveitamento* de código
+- *Garantir a consistência* (do estado) dos objetos
+
+---
+
+## Encapsulamento em Python
+[04-Encapsulamento](04-Encapsulamento.ipynb)
