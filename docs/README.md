@@ -30,14 +30,14 @@ Notas de aula e exercícios: [03-Classes-Objetos.ipynb](./slides/03-classes-obje
 
 Notas de aula e exercícios: [04-Encapsulamento.ipynb](./slides/04-encapsulamento/04-Encapsulamento.ipynb)
 
-<!--
-
-## [05 - 19/04 - Biblioteca Padrão Python](./05-biblioteca-padrao)
+## [11/04 - Biblioteca Padrão Python](./slides/05-biblioteca-padrao/05-biblioteca-padrao.html)
  - Listas
  - Tuplas
  - Dicionários
 
-Anotações e exercícios da aula (Jupyter notebook) [05-Biblioteca-Padrao.ipynb](./05-biblioteca-padrao/05-Biblioteca-Padrao.ipynb)
+Notas de aula e exercícios: [05-Biblioteca-Padrao.ipynb](./slides/05-biblioteca-padrao/05-Biblioteca-Padrao.ipynb)
+
+<!--
 
 ## [06 - 26/04 - Relações entre Classes](./06-relacoes)
  - Notação UML

@@ -803,5 +803,264 @@
     "title": "Encapsulamento",
     "section": "Exemplo: Estacionamento",
     "text": "Exemplo: Estacionamento\nA resposta é Não!: o valor do atributo vagas não deve ser modificado diretamente.\n\nIsto deve ser feito exclusivamente utilizando chamada aos método que informam que um carro entrou ou saiu do estacionamento. Estes métodos, por sua vez, são quem deve alterar o a quantidade de vagas do estacionamento."
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relembrando",
+    "href": "slides/06-relacoes/06-relacoes.html#relembrando",
+    "title": "Relações entre Classes",
+    "section": "Relembrando",
+    "text": "Relembrando\nClasse: abstração para agrupar objetos comuns\nObjetos: instâncias de uma classe"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relembrando-1",
+    "href": "slides/06-relacoes/06-relacoes.html#relembrando-1",
+    "title": "Relações entre Classes",
+    "section": "Relembrando",
+    "text": "Relembrando\n\nAtributos: características da entidade sendo modelada\nMétodos: definem o comportamento\nInicializador: inicializa os atributos (construtor em outras linguagens)\nself: referência que um objeto tem dele mesmo"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#interfaces-e-encapsulamento",
+    "href": "slides/06-relacoes/06-relacoes.html#interfaces-e-encapsulamento",
+    "title": "Relações entre Classes",
+    "section": "Interfaces e Encapsulamento",
+    "text": "Interfaces e Encapsulamento\nMembros privados:\n\nMétodos e atributos que não devem ser visíveis para os usuários da classe\nUtilizados apenas internamente, pela própria classe\n\nMembros públicos:\n\nMétodos que podem ser chamados externamente\nEspecificam um contrato: operações que o objeto pode realizar"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#interfaces-e-encapsulamento-1",
+    "href": "slides/06-relacoes/06-relacoes.html#interfaces-e-encapsulamento-1",
+    "title": "Relações entre Classes",
+    "section": "Interfaces e Encapsulamento",
+    "text": "Interfaces e Encapsulamento\n\nAlterações no estado de um objeto acontecem através da chamada de seus métodos\n\nAtributos não devem ser modificados diretamente (a não ser via getters/setters)\n\nAs mudanças na implementação da classe não devem afetar o código usuário da classe"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#aula-de-hoje",
+    "href": "slides/06-relacoes/06-relacoes.html#aula-de-hoje",
+    "title": "Relações entre Classes",
+    "section": "Aula de Hoje",
+    "text": "Aula de Hoje\nProgramas do mundo real (mais complexos) são implementados por várias classes que se relacionam entre si"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#aula-de-hoje-1",
+    "href": "slides/06-relacoes/06-relacoes.html#aula-de-hoje-1",
+    "title": "Relações entre Classes",
+    "section": "Aula de Hoje",
+    "text": "Aula de Hoje\nObjetivos desta aula:\n\nIntroduzir o conceito de diagrama de classes\nExplicar como os objetos se relacionam em um sistema orientado a objetos\nIdentificar os diferentes tipos de relacionamento entre classes\nImplementar relações entre classes em Python"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#implementação-de-classes",
+    "href": "slides/06-relacoes/06-relacoes.html#implementação-de-classes",
+    "title": "Relações entre Classes",
+    "section": "Implementação de Classes",
+    "text": "Implementação de Classes\n\nAté então, vocês implementaram uma (ou no máximo duas) classes para os programas solicitados\nA partir desta aula, deverá ficar claro quando mais de uma classe se torna necessário e qual o papel de cada uma delas\n\nComo elas se relacionam entre si"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#implementação-de-classes-1",
+    "href": "slides/06-relacoes/06-relacoes.html#implementação-de-classes-1",
+    "title": "Relações entre Classes",
+    "section": "Implementação de Classes",
+    "text": "Implementação de Classes\nAntes disto, para facilitar:\n\nComo podemos mostrar/visualizar rapidamente o que possui uma classe?"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml",
+    "href": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml",
+    "title": "Relações entre Classes",
+    "section": "Diagrama de Classe UML",
+    "text": "Diagrama de Classe UML"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml-1",
+    "href": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml-1",
+    "title": "Relações entre Classes",
+    "section": "Diagrama de Classe UML",
+    "text": "Diagrama de Classe UML\nBlocos representam classes:\n\nParte superior: atributos\nParte inferior: métodos\n\nApenas o tipo dos parâmetros e tipo de retorno\n\n- denota um atributo/método privado\n+ denota um atributo/método público"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml-2",
+    "href": "slides/06-relacoes/06-relacoes.html#diagrama-de-classe-uml-2",
+    "title": "Relações entre Classes",
+    "section": "Diagrama de Classe UML",
+    "text": "Diagrama de Classe UML\nDiagrama de classe da linguagem unificada de modelagem (UML):\n\nFacilita a visão geral de sistemas maiores\nFerramenta sugerida: Draw IO\n\nVocê pode utilizar qualquer outra"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Associação",
+    "text": "Relacionamentos de Associação\n\nIndicam alguma associação significativa e de interesse entre objetos\nEspecificam que objetos de uma classe estão de alguma forma associados a objetos de uma outra classe\n\nPode indicar associação entre objetos de mesma classe"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-1",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-1",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Associação",
+    "text": "Relacionamentos de Associação\nExemplos:\n\nEm um Estacionamento estão estacionados os Carros\nUm Professor ministra várias Disciplinas\nUma Mensagem possui um Remetente e um Destinatário\nUma Pessoa tem outra Pessoa como a sua mãe"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-2",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-2",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Associação",
+    "text": "Relacionamentos de Associação\n\n\n\n\n\nNotação de associação em diagrama de classes: linha conectando as classes que estão associadas\n\nUm objeto tipo A está associado com zero ou vários objetos tipo B\nUm objeto tipo B está associado com um objeto tipo A"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#multiplicidade",
+    "href": "slides/06-relacoes/06-relacoes.html#multiplicidade",
+    "title": "Relações entre Classes",
+    "section": "Multiplicidade",
+    "text": "Multiplicidade\nNas extremidades da linha denotando a associação, está a multiplicidade:\n\n0 : zero\n0..1: zero ou um\n1 : um\n1..*: um ou mais\n0..* ou *: zero ou mais"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-3",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-3",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Associação",
+    "text": "Relacionamentos de Associação\nExemplo\nUm banco, no qual cada conta bancaria está associada a uma pessoa (o titular da conta):"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-4",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-associação-4",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Associação",
+    "text": "Relacionamentos de Associação\nExemplo\nObserve que este diagrama representa uma regra específica da aplicação:\n\nUma pessoa pode ter mais de uma conta? \\(\\rightarrow\\) Sim\nÉ possível existirem contas conjuntas? \\(\\rightarrow\\) Não"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Agregação",
+    "text": "Relacionamentos de Agregação\n\nRepresenta uma relação todo-parte fraca\nAs partes podem existir sem o todo"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-1",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-1",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Agregação",
+    "text": "Relacionamentos de Agregação\nExemplos:\n\nRelação entre o Carro, as Rodas e o Motor\nRelação entre um Computador, o Teclado, a Tela\n\nConsidere que em ambos os exemplos, o objeto todo pode ser instanciado sem as suas partes (e vice-versa)"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-2",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-2",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Agregação",
+    "text": "Relacionamentos de Agregação\n\n\n\n\n\nEm um diagrama de classes:\n\nA é o “todo”\n\nDiamante vazado na classe “todo”\n\nB são as “partes”\nLinha conectando “todo” com “partes”"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-3",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-3",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Agregação",
+    "text": "Relacionamentos de Agregação\nExemplo\nUm carro que possui 1 motor e 4 rodas"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-4",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-agregação-4",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Agregação",
+    "text": "Relacionamentos de Agregação\nCom agregação:\n\nObjetos Motor e Roda são instanciados\nEstas instâncias são então associadas a um Carro\nOu seja, Motor, Roda e Carro podem ser instanciados independentemente\nSe um Carro é removido da memória, o Motor e Roda a ele associados continuam a existir"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Composição",
+    "text": "Relacionamentos de Composição\n\nRepresenta uma relação todo-parte forte\nSe o objeto todo deixar de existir, os seus objetos parte também devem deixar de existir"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-1",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-1",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Composição",
+    "text": "Relacionamentos de Composição\nExemplos:\n\nUm Estacionamento e seus Andares\nUm Prédio e suas Salas"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-2",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-2",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Composição",
+    "text": "Relacionamentos de Composição\n\n\n\n\n\nEm um diagrama de classes:\n\nA é o “todo”\n\nDiamante preenchido na classe “todo”\n\nLinha conectando “todo” com “partes”"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-3",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-3",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Composição",
+    "text": "Relacionamentos de Composição\nExemplo\nPrédio com várias salas"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-4",
+    "href": "slides/06-relacoes/06-relacoes.html#relacionamentos-de-composição-4",
+    "title": "Relações entre Classes",
+    "section": "Relacionamentos de Composição",
+    "text": "Relacionamentos de Composição\nCom composição:\n\nObjetos Predio são instanciados e, dentro do seu inicializador, objetos Sala também o são\nOu seja, Predio instancia Sala automaticamente\nNão é possível instanciar Predio sem Salas\nSe um Predio é removido da memória, as Sala a ele associadas também são removidas"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#resumindo",
+    "href": "slides/06-relacoes/06-relacoes.html#resumindo",
+    "title": "Relações entre Classes",
+    "section": "Resumindo",
+    "text": "Resumindo\nAssociação\n\nRelação genérica entre duas classes\nNenhum objeto é considerado dono/proprietário do outro objeto"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#resumindo-1",
+    "href": "slides/06-relacoes/06-relacoes.html#resumindo-1",
+    "title": "Relações entre Classes",
+    "section": "Resumindo",
+    "text": "Resumindo\nAgregação\n\nRelação tem um fraca: um objeto da classe A tem um (ou mais) objeto da classe B\nObjetos da classe A podem existir objetos da classe B\n\nObserve que neste caso, o objeto da classe A pode não estar pronto para uso (estado inconsistente \\(\\rightarrow\\) ele pode precisar de objetos da classe B para funcionar corretamente)"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#resumindo-2",
+    "href": "slides/06-relacoes/06-relacoes.html#resumindo-2",
+    "title": "Relações entre Classes",
+    "section": "Resumindo",
+    "text": "Resumindo\nComposição\n\nRelação tem um forte: um objeto da classe A tem um (ou mais) objeto da classe B\nObjetos da classe A instanciam também objetos da classe B\nObjetos da classe B deixam de existir quando objetos da classe proprietária A deixam de existir"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relações-entre-objetos-e-abstração",
+    "href": "slides/06-relacoes/06-relacoes.html#relações-entre-objetos-e-abstração",
+    "title": "Relações entre Classes",
+    "section": "Relações entre Objetos e Abstração",
+    "text": "Relações entre Objetos e Abstração\n\nA escolha de uma forma de relação específica está atrelada à abstração empregada no domínio do problema"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relações-entre-objetos-e-abstração-1",
+    "href": "slides/06-relacoes/06-relacoes.html#relações-entre-objetos-e-abstração-1",
+    "title": "Relações entre Classes",
+    "section": "Relações entre Objetos e Abstração",
+    "text": "Relações entre Objetos e Abstração\nAs classes Motor, Roda e Carro, por exemplo, podem ser implementadas como:\n\nAgregação, quando for de interesse que Motor e Roda sejam instanciados sem depender de um Carro\nComposição, quando for de interesse que Motor e Roda só sejam instanciados quando um Carro for instanciado"
+  },
+  {
+    "objectID": "slides/06-relacoes/06-relacoes.html#relações-entre-classes",
+    "href": "slides/06-relacoes/06-relacoes.html#relações-entre-classes",
+    "title": "Relações entre Classes",
+    "section": "Relações entre Classes",
+    "text": "Relações entre Classes\n06-relacoes"
+  },
+  {
+    "objectID": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#revisão",
+    "href": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#revisão",
+    "title": "Biblioteca Padrão Python",
+    "section": "Revisão",
+    "text": "Revisão\nEncapsulamento\n\nProtege o acesso direto aos atributos de um objeto\nEsconde como funcionam as rotinas (métodos) da classe\nAs classes devem expôr o mínimo necessário para serem utilizadas"
+  },
+  {
+    "objectID": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#revisão-1",
+    "href": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#revisão-1",
+    "title": "Biblioteca Padrão Python",
+    "section": "Revisão",
+    "text": "Revisão\nEncapsulamento\n\nAo chamar um método, podemos ignorar como ele foi implementado\nOs usuários da classe só devem acessar os atributos/métodos públicos da classe (interface pública)"
+  },
+  {
+    "objectID": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#objetivos",
+    "href": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#objetivos",
+    "title": "Biblioteca Padrão Python",
+    "section": "Objetivos",
+    "text": "Objetivos\nNesta aula, serão mostradas as seguintes classes da biblioteca padrão de Python:\n\ntuple (pares ordenados, tuplas, etc)\nlist (listas de elementos)\nstr (strings)\ndict (dicionários)"
+  },
+  {
+    "objectID": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#estruturas-de-dados-e-biblioteca-padrão",
+    "href": "slides/05-biblioteca-padrao/05-biblioteca-padrao.html#estruturas-de-dados-e-biblioteca-padrão",
+    "title": "Biblioteca Padrão Python",
+    "section": "Estruturas de Dados e Biblioteca Padrão",
+    "text": "Estruturas de Dados e Biblioteca Padrão\n05-Biblioteca-Padrão"
   }
 ]
