@@ -46,10 +46,9 @@ Notas de aula e exercícios: [05-Biblioteca-Padrao.ipynb](./slides/05-biblioteca
 
 Notas de aula e exercícios [06-Relacoes.ipynb](./slides/06-relacoes/06-Relacoes.ipynb)
 
-<!--
+## [25/04 - Módulos em Python (Jupyter notebook)](./slides/07-modulos/07-Modulos.ipynb)
 
-## [07 - 03/05 - Módulos em Python (Jupyter notebook)](./07-modulos/07-Modulos.ipynb)
- - Módulos em Python
+<!--
 
 Arquivo auxiliar: [alo.py](./07-modulos/alo.py)
 
