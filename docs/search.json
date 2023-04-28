@@ -1062,5 +1062,82 @@
     "title": "Biblioteca Padrão Python",
     "section": "Estruturas de Dados e Biblioteca Padrão",
     "text": "Estruturas de Dados e Biblioteca Padrão\n05-Biblioteca-Padrão"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#objetivo",
+    "href": "slides/08-heranca/08-heranca.html#objetivo",
+    "title": "Herança",
+    "section": "Objetivo",
+    "text": "Objetivo\nApresentar o mecanismo de herança:\n\nO que é herança em POO\nComo utilizá-la na linguagem Python"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#os-quatro-pilares-de-poo",
+    "href": "slides/08-heranca/08-heranca.html#os-quatro-pilares-de-poo",
+    "title": "Herança",
+    "section": "Os Quatro Pilares de POO",
+    "text": "Os Quatro Pilares de POO\n\nAbstração\nEncapsulamento\nHerança: permite a reutilização de comportamento entre classes\nPolimorfismo"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#herança",
+    "href": "slides/08-heranca/08-heranca.html#herança",
+    "title": "Herança",
+    "section": "Herança",
+    "text": "Herança\n\nCapacidade de uma classe herdar o comportamento definido por outra classe\nPossibilita a reutilização de código entre classes que apresentam alguma similaridade entre si"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#herança-1",
+    "href": "slides/08-heranca/08-heranca.html#herança-1",
+    "title": "Herança",
+    "section": "Herança",
+    "text": "Herança\n\nUm novo tipo de relação entre classes\nAcontece entre objetos genéricos e objetos específicos"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#uml-herança",
+    "href": "slides/08-heranca/08-heranca.html#uml-herança",
+    "title": "Herança",
+    "section": "UML: Herança",
+    "text": "UML: Herança\n\n\n\n\n\n\nRelação do tipo “é um”: “um objeto B é um objeto A”\nClasse B herda o comportamento (atributos e métodos) da classe A\nA: classe base, classe mãe ou superclasse\nB: classe derivada, classe filha ou subclasse"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#herança-2",
+    "href": "slides/08-heranca/08-heranca.html#herança-2",
+    "title": "Herança",
+    "section": "Herança",
+    "text": "Herança\n\nAs superclasses devem oferecer comportamentos genéricos\nAs subclasses devem oferecer comportamentos específicos"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#exemplos",
+    "href": "slides/08-heranca/08-heranca.html#exemplos",
+    "title": "Herança",
+    "section": "Exemplos",
+    "text": "Exemplos\nRelações de herança entre classes:\n\nPessoa e Aluno: todo aluno (objeto específico) é uma pessoa (objeto genérico)\nMeioDeTransporte e Carro: todo carro (objeto específico) é um meio de transporte (objeto genérico)\nSensor e Sonar: todo sonar (objeto específico) é um sensor (objeto genérico)\nPoligono e Triangulo: todo triângulo (objeto específico) é um polígono (objeto genérico)"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#mais-um-exemplo",
+    "href": "slides/08-heranca/08-heranca.html#mais-um-exemplo",
+    "title": "Herança",
+    "section": "Mais um exemplo",
+    "text": "Mais um exemplo\nDiagrama de classe envolvendo heranças:"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#onde-herança-pode-ser-útil",
+    "href": "slides/08-heranca/08-heranca.html#onde-herança-pode-ser-útil",
+    "title": "Herança",
+    "section": "Onde Herança pode ser útil?",
+    "text": "Onde Herança pode ser útil?\n\nAs relações de herança definem uma hierarquia de classes onde as subclasses herdam as características das suas superclasses\nÉ útil para definir um comportamento em comum para objetos de uma mesma hierarquia\n\nO código da classe base é reutilizado em todas as subclasses\nQualquer alteração no código da classe base é propagado para todas as subclasses"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#onde-herança-pode-ser-útil-1",
+    "href": "slides/08-heranca/08-heranca.html#onde-herança-pode-ser-útil-1",
+    "title": "Herança",
+    "section": "Onde Herança pode ser útil?",
+    "text": "Onde Herança pode ser útil?\n\nO comportamento comum a várias classes pode ser definido em uma superclasse\nAlém de reutilizar código, as subclasses também podem:\n\nReescrever completamente os métodos que ditam o comportamento da classe (method overriding)\nEstender os métodos que ditam o comportamento da classe (utilizando parte da implementação base)"
+  },
+  {
+    "objectID": "slides/08-heranca/08-heranca.html#como-funciona-na-prática",
+    "href": "slides/08-heranca/08-heranca.html#como-funciona-na-prática",
+    "title": "Herança",
+    "section": "Como Funciona na Prática",
+    "text": "Como Funciona na Prática\n08-heranca\n\n\n\nECT2504 - Programação Orientada a Objetos"
   }
 ]

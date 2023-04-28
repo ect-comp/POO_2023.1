@@ -48,14 +48,12 @@ Notas de aula e exercícios [06-Relacoes.ipynb](./slides/06-relacoes/06-Relacoes
 
 ## [25/04 - Módulos em Python (Jupyter notebook)](./slides/07-modulos/07-Modulos.ipynb)
 
-<!--
-
-Arquivo auxiliar: [alo.py](./07-modulos/alo.py)
-
 ## [08 - 10/05 - Herança](./08-heranca)
- - Pilar de POO 3: Herança
+ - Pilar de POO 3: herança
 
-Anotações e exercícios da aula (Jupyter notebook) [08-Heranca.ipynb](./08-heranca/08-Heranca.ipynb)
+Notas de aula e exercícios [08-Heranca.ipynb](./slides/08-heranca/08-Heranca.ipynb)
+
+<!--
 
 ## [09 - 12/05 - Métodos/Atributos de classe](./09-static)
  - Métodos e atributos de classe
