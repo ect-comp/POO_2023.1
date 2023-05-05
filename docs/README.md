@@ -53,18 +53,18 @@ Notas de aula e exercícios [06-Relacoes.ipynb](./slides/06-relacoes/06-Relacoes
 
 Notas de aula e exercícios [08-Heranca.ipynb](./slides/08-heranca/08-Heranca.ipynb)
 
-<!--
-
-## [09 - 12/05 - Métodos/Atributos de classe](./09-static)
+## [09/05 - Métodos/Atributos de classe](./slides/09-membros-static/09-membros-static.html)
  - Métodos e atributos de classe
 
-Anotações e exercícios da aula (Jupyter notebook) [09-Static.ipynb](./09-static/09-Static.ipynb)
+Notas de aula e exercícios [09-Static.ipynb](./slides//09-static/09-Membros-Static.ipynb)
 
-## [10 - 17/05 - Classes abstratas](./10-classes-abstratas)
+## [09/05 - Classes abstratas](./slides/10-classes-abstratas/10-classes-abstratas.html)
  - Classes abstratas
  - Métodos abstratos
 
-Anotações e exercícios da aula (Jupyter notebook) [10-Classes-Abstratas.ipynb](./10-classes-abstratas/10-Classes-Abstratas.ipynb)
+Notas de aula e exercícios [10-Classes-Abstratas.ipynb](./slides/10-classes-abstratas/10-Classes-Abstratas.ipynb)
+
+<!--
 
 ## [11 - 24/05 - Polimorfismo](./11-polimorfismo)
  - Pilar de POO 4: Polimorfismo

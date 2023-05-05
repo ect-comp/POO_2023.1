@@ -1139,5 +1139,68 @@
     "title": "Herança",
     "section": "Como Funciona na Prática",
     "text": "Como Funciona na Prática\n08-heranca\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#objetivo",
+    "href": "slides/09-membros-static/09-membros-static.html#objetivo",
+    "title": "Atributos e Métodos de Classe",
+    "section": "Objetivo",
+    "text": "Objetivo\nApresentar atributos e métodos de classe:\n\nUtilidade\nSintaxe em Python"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-classe",
+    "href": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-classe",
+    "title": "Atributos e Métodos de Classe",
+    "section": "Atributos e Métodos de Classe",
+    "text": "Atributos e Métodos de Classe\n\nFrequentemente, é desejável ter atributos/métodos que são “globais”, ou seja, que não dizem respeito a uma instância específica de uma classe\nPor exemplo:\n\nO endereço IP de um servidor de banco de dados\nAs possíveis cores de um Carro\nA quantidade de instâncias criadas de uma classe"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-instância-vs.-atributos-e-métodos-de-classe",
+    "href": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-instância-vs.-atributos-e-métodos-de-classe",
+    "title": "Atributos e Métodos de Classe",
+    "section": "Atributos e Métodos de Instância vs. Atributos e Métodos de Classe",
+    "text": "Atributos e Métodos de Instância vs. Atributos e Métodos de Classe\nAté então, todos os atributos e métodos vistos são de instância:\n\nDizem respeito a uma instância/objeto específico daquela classe\nSão comumente chamados de atributos/métodos (a parte de instância do nome atributo de instância é implícita)"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-instância-vs.-atributos-e-métodos-de-classe-1",
+    "href": "slides/09-membros-static/09-membros-static.html#atributos-e-métodos-de-instância-vs.-atributos-e-métodos-de-classe-1",
+    "title": "Atributos e Métodos de Classe",
+    "section": "Atributos e Métodos de Instância vs. Atributos e Métodos de Classe",
+    "text": "Atributos e Métodos de Instância vs. Atributos e Métodos de Classe\n\nAtributos e métodos de classe dizem respeito à classe, e não a um objeto específico daquela classe\n\nTambém chamados de atributos/métodos estáticos\nNão precisam de uma instância da classe para serem utilizados\n\nÚteis para compartilhar informações entre todos os objetos de uma mesma classe"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#uml-atributos-e-métodos-de-classe",
+    "href": "slides/09-membros-static/09-membros-static.html#uml-atributos-e-métodos-de-classe",
+    "title": "Atributos e Métodos de Classe",
+    "section": "UML: Atributos e Métodos de Classe",
+    "text": "UML: Atributos e Métodos de Classe\n\n\n\n\n\nNotação UML: texto sublinhado indica métodos e atributos de classe (estáticos)"
+  },
+  {
+    "objectID": "slides/09-membros-static/09-membros-static.html#como-funciona-na-prática",
+    "href": "slides/09-membros-static/09-membros-static.html#como-funciona-na-prática",
+    "title": "Atributos e Métodos de Classe",
+    "section": "Como Funciona na Prática",
+    "text": "Como Funciona na Prática\n09-Membros-Static\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-Classes-Abstratas.html#classe-abstrata---uml",
+    "href": "slides/10-classes-abstratas/10-Classes-Abstratas.html#classe-abstrata---uml",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata - UML",
+    "text": "Classe Abstrata - UML\nNa notação UML, uma classe abstrata possui seu nome em itálico, assim como os métodos abstratos:"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-Classes-Abstratas.html#observações-importantes",
+    "href": "slides/10-classes-abstratas/10-Classes-Abstratas.html#observações-importantes",
+    "title": "Classes Abstratas",
+    "section": "Observações Importantes",
+    "text": "Observações Importantes\n\nClasses concretas não podem ter métodos abstratos\nSe a subclasse não sobrescreve todos os métodos abstratos da superclasse, ela também é abstrata\nUma classe abstrata pode ter métodos abstratos e métodos implementados"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-Classes-Abstratas.html#classe-abstrata-2",
+    "href": "slides/10-classes-abstratas/10-Classes-Abstratas.html#classe-abstrata-2",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata",
+    "text": "Classe Abstrata\nUso em sistemas reais:\n\nProver funcionalidade comum a uma hierarquia de classes\nExtensão de programas: por exemplo, plugins"
   }
 ]
