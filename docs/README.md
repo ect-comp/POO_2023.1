@@ -56,7 +56,7 @@ Notas de aula e exercícios [08-Heranca.ipynb](./slides/08-heranca/08-Heranca.ip
 ## [09/05 - Métodos/Atributos de classe](./slides/09-membros-static/09-membros-static.html)
  - Métodos e atributos de classe
 
-Notas de aula e exercícios [09-Static.ipynb](./slides//09-static/09-Membros-Static.ipynb)
+Notas de aula e exercícios [09-Membros-Static.ipynb](./slides//09-membros-static/09-Membros-Static.ipynb)
 
 ## [09/05 - Classes abstratas](./slides/10-classes-abstratas/10-classes-abstratas.html)
  - Classes abstratas
