@@ -64,13 +64,13 @@ Notas de aula e exercícios [09-Membros-Static.ipynb](./slides//09-membros-stati
 
 Notas de aula e exercícios [10-Classes-Abstratas.ipynb](./slides/10-classes-abstratas/10-Classes-Abstratas.ipynb)
 
-<!--
-
-## [11 - 24/05 - Polimorfismo](./11-polimorfismo)
+## [16/05 - Polimorfismo](./slides/11-polimorfismo/11-polimorfismo.html)
  - Pilar de POO 4: Polimorfismo
  - *Duck typing* e polimorfismo em Python
 
-Anotações e exercícios da aula (Jupyter notebook) [11-Polimorfismo.ipynb](./11-polimorfismo/11-Polimorfismo.ipynb)
+Notas de aula e exercícios [11-Polimorfismo.ipynb](./slides/11-polimorfismo/11-Polimorfismo.ipynb)
+
+<!--
 
 ## [12 - 31/05 - Herança Múltipla](./12-heranca-multipla)
  - Herança múltipla

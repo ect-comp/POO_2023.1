@@ -1202,5 +1202,215 @@
     "title": "Classes Abstratas",
     "section": "Classe Abstrata",
     "text": "Classe Abstrata\nUso em sistemas reais:\n\nProver funcionalidade comum a uma hierarquia de classes\nExtensão de programas: por exemplo, plugins"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#objetivo-da-aula",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#objetivo-da-aula",
+    "title": "Classes Abstratas",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\n\nApresentar o mecanismo de classes abstratas\nO que são classes abstratas\nIdentificar quando utilizar classes abstratas em um projeto orientado a objetos\nComo utilizá-las na linguagem Python"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#herança-revisão",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#herança-revisão",
+    "title": "Classes Abstratas",
+    "section": "Herança (revisão)",
+    "text": "Herança (revisão)\n\nPermite que classes derivadas herdem o comportamento (atributos e métodos) de uma classe base\nIntroduz a relação “é um” (ex.: “trem” é um “meio de transporte”)\nO código da superclasse é reutilizado pelas classes derivadas\nAs classes derivadas podem sobrescrever métodos da superclasse com funcionalidades específicas"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#herança-revisão-1",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#herança-revisão-1",
+    "title": "Classes Abstratas",
+    "section": "Herança (revisão)",
+    "text": "Herança (revisão)\nObserve esta implementação do sistema de contas bancárias:\n\n\n\n\n\nFaz sentido criar objetos tipo Conta? Qual a sua utilidade?"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata",
+    "text": "Classe Abstrata\n\nÉ uma classe que não deve ser instanciada\nDefine um comportamento comum para outras classes derivadas\nToda classe que não é abstrata é chamada classe concreta"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata-1",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata-1",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata",
+    "text": "Classe Abstrata\nClasses abstratas são em geral utilizadas para:\n\nOferecer código para ser reutilizado por classes derivadas\nEspecificar uma interface pública a ser implementada por classes derivadas\n\nQuais métodos a classe derivada deve possuir\nQue parâmetros eles devem ter"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#método-abstrato",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#método-abstrato",
+    "title": "Classes Abstratas",
+    "section": "Método Abstrato",
+    "text": "Método Abstrato\n\nEstão presentes somente em classes abstratas\nÉ um método que deve ser obrigatoriamente sobrescrito nas classes derivadas\nSe a classe possui pelo menos um método abstrato, então ela é uma classe abstrata (não é possível instanciar objetos desta classe)\nEm geral, um método abstrato não possui implementação\n\nApenas especifica tipo de retorno e parâmetros (igual à assinatura de uma função)\nEm Python: podem possuir implementação"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata---uml",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata---uml",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata - UML",
+    "text": "Classe Abstrata - UML\nNa notação UML, uma classe abstrata possui seu nome e métodos abstratos em itálico:"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#observações-importantes",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#observações-importantes",
+    "title": "Classes Abstratas",
+    "section": "Observações Importantes",
+    "text": "Observações Importantes\n\nClasses concretas não podem ter métodos abstratos\nSe a subclasse não sobrescreve todos os métodos abstratos da superclasse, ela também é abstrata\nUma classe abstrata pode ter métodos abstratos e métodos implementados"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata-2",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#classe-abstrata-2",
+    "title": "Classes Abstratas",
+    "section": "Classe Abstrata",
+    "text": "Classe Abstrata\nUso em sistemas reais:\n\nProver funcionalidade comum a uma hierarquia de classes\nExtensão de programas: por exemplo, plugins"
+  },
+  {
+    "objectID": "slides/10-classes-abstratas/10-classes-abstratas.html#como-funciona-na-prática",
+    "href": "slides/10-classes-abstratas/10-classes-abstratas.html#como-funciona-na-prática",
+    "title": "Classes Abstratas",
+    "section": "Como Funciona na Prática",
+    "text": "Como Funciona na Prática\n10-classes-abstratas"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#objetivo-da-aula",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#objetivo-da-aula",
+    "title": "Polimorfismo",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\nNesta aula veremos:\n\nO que é polimorfismo\nDuck typing\nComo a linguagem Python utiliza o polimorfismo"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#os-pilares-de-poo",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#os-pilares-de-poo",
+    "title": "Polimorfismo",
+    "section": "Os Pilares de POO",
+    "text": "Os Pilares de POO\n\nAbstração\nEncapsulamento\nHerança\nPolimorfismo"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo",
+    "text": "Polimorfismo\n\n\n\n\n\n\nMecanismo presente em linguagens OO que permitem a um objeto se comportar de formas diferentes\n\n\n\n\nPoli: muitos, morfismo: formas\nMais um recurso utilizado para promover a reutilização de código\nUm mesmo código possui diferentes comportamentos"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-1",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-1",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo",
+    "text": "Polimorfismo\nNa prática, polimorfismo é oferecido por linguagens OO através de vários mecanismos.\nEstes mecanismos são mostrados a seguir, utilizando códigos de outras linguagens."
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-estaticamente-tipadas-java",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-estaticamente-tipadas-java",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo em Linguagens Estaticamente Tipadas (Java)",
+    "text": "Polimorfismo em Linguagens Estaticamente Tipadas (Java)\n\nInstanciando objetos da classe base utilizando construtores da classe derivada:\n\n// Gato é uma subclasse de Mamifero\nMamifero m = new Gato(); \n// Funcionario é uma subclasse de Pessoa\nPessoa p = new Funcionario(...); \n\n// Utilizando casting explicito\nGato g = new Gato();\nAnimal a = (Animal) G ;\n\n// Erro!! Nem toda pessoa é um funcionário\nFuncionario f = new Pessoa(...); \nPodemos atribuir objetos da subclasse a variáveis da superclasse"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-estaticamente-tipadas-java-1",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-estaticamente-tipadas-java-1",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo em Linguagens Estaticamente Tipadas (Java)",
+    "text": "Polimorfismo em Linguagens Estaticamente Tipadas (Java)\n\nConsidere um método que recebe como parâmetro objetos da classe base:\n\nvoid imprimeDados(Pessoa p){\n ...\n}\n\nFuncionario f = new Funcionario(...);\n// Como todo funcionário é uma pessoa,\n// podemos utilizar o método imprimirDados com parâmetro f\nimprimeDados(f); \nPodemos “substituir” o parâmetro do tipo Pessoa por um Funcionario (porque todo Funcionario é uma Pessoa)"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-tipadas-java",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-tipadas-java",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo em Linguagens Tipadas (Java)",
+    "text": "Polimorfismo em Linguagens Tipadas (Java)\n\nSobrecarga de funções: uma mesma função se comporta de diversas formas, de acordo com seus parâmetros:\n\nint funcao(int x);\nfloat funcao(float x);\nchar funcao(char x);\nA função funcao possui diferentes assinaturas"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-tipadas",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-linguagens-tipadas",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo em Linguagens Tipadas",
+    "text": "Polimorfismo em Linguagens Tipadas\n\nSobrecarga de operadores: algumas linguagens permitem implementar um método que define o comportamento dos operadores +, -, *, /, >, <, ==, etc.\n\n\nC++ permite\nC# permite\nObjective-C não permite\nJava não permite"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma",
+    "title": "Polimorfismo",
+    "section": "Python Funciona de Outra Forma",
+    "text": "Python Funciona de Outra Forma\n\nObjetos da classe base recebendo objetos de classes derivadas:\n\nPessoa p = new Funcionario(...); \nNão tem sentido, porque em Python, uma variável pode ser atribuída a objetos de classes diferentes (que não necessariamente pertencem à mesma hierarquia)\nx = 4 \nx = [1,2,3]\nx = \"alo\" \nx = Pessoa(...) \nx = Carro(...)"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-1",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-1",
+    "title": "Polimorfismo",
+    "section": "Python Funciona de Outra Forma",
+    "text": "Python Funciona de Outra Forma\n\nChamar funções/métodos com instâncias de alguma subclasse como parâmetro:\n\nComo não temos tipos, podemos chamar uma função/método passando como parâmetro objetos de classes diferentes:\nstr(3)\nstr(3.2)\np = Pessoa(...)\nstr(p)\nlen(\"alo\")\nlen([1,2,3])"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-2",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-2",
+    "title": "Polimorfismo",
+    "section": "Python Funciona de Outra Forma",
+    "text": "Python Funciona de Outra Forma\n\nSobrecarga de funções:\n\ndef funcao(x):\n ...\n\ndef funcao(x,y):  # a definição anterior de f é substituída por esta\n ...\n\nf(4) # Erro! 2 parâmetros são esperados\nEm Python, não podemos criar 2 funções com diferentes assinaturas"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-3",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-3",
+    "title": "Polimorfismo",
+    "section": "Python Funciona de Outra Forma",
+    "text": "Python Funciona de Outra Forma\nEntretanto, o seguinte código funciona perfeitamente:\nclass Pessoa:\n    def __init__(self, nome, idade): ...\n\n    def compara_idades(self, p2):\n        return p1.idade <= p2.idade\n\nclass Aluno(Pessoa): ...\nclass Professor(Pessoa): ...\n\np = Pessoa('joão', 25)\na = Aluno('maria', 20, 111) \nprint(p.compara_idades(a)) # método funciona pq um Aluno é uma Pessoa"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-2",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-2",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo",
+    "text": "Polimorfismo\nCom polimorfismo, a chamada dos métodos é polimórfica: a mesma chamada pode se comportar de diferentes formas, de acordo com a classe dos objetos envolvidos"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#o-princípio-da-substituição-de-liskov",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#o-princípio-da-substituição-de-liskov",
+    "title": "Polimorfismo",
+    "section": "O princípio da substituição de Liskov",
+    "text": "O princípio da substituição de Liskov\n\n\n\n\n\nBarbara Liskov, cientista da computação estadunidense conhecida por criar o Princípio de Substituição de Liskov, por ser uma das primeiras mulheres a obter um PhD em Ciência da Computação nos Estados Unidos e pelas suas contribuições que levaram ao desenvolvimento de POO (Wikipedia)"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#o-princípio-da-substituição-de-liskov-1",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#o-princípio-da-substituição-de-liskov-1",
+    "title": "Polimorfismo",
+    "section": "O princípio da substituição de Liskov",
+    "text": "O princípio da substituição de Liskov\n\nUma classe base deve poder ser substituída pela sua classe derivada\nConsidere o método q(x). Se q pode ser utilizado com objetos da superclasse T, então q deve poder também ser chamado com um objeto de uma subclasse S derivada de T"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-python",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#polimorfismo-em-python",
+    "title": "Polimorfismo",
+    "section": "Polimorfismo em Python",
+    "text": "Polimorfismo em Python\nPython implementa todas as funcionalidades apresentadas até então seguindo um conceito chamado como duck typing"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#duck-typing",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#duck-typing",
+    "title": "Polimorfismo",
+    "section": "Duck Typing",
+    "text": "Duck Typing\n\n\n\n\n\n\nQuando eu vejo um pássaro que anda como pato, nada como um pato e grasna como pato, então pra mim este pássaro é um pato\n\n\n\n\nPrincípio utilizado como base da linguagem Python\nLembre-se que Python possui tipagem dinâmica: o tipo dos objetos só pode ser determinado na execução do programa"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#duck-typing-1",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#duck-typing-1",
+    "title": "Polimorfismo",
+    "section": "Duck Typing",
+    "text": "Duck Typing\nForma de tipagem que está mais interessada no que o objeto possui como atributos/métodos do que se ele é de uma determinada classe\nExemplos de uso de Duck typing:\n\nQuando usamos print(a): não interessa a classe de a, o objeto vai ser impresso (e o método __str__ é chamado)\nQuando usamos a.liga(): não interessa se o objeto a é da classe Motor ou da classe Lampada. A chamada irá ter sucesso ser o objeto possuir o método liga"
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-4",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#python-funciona-de-outra-forma-4",
+    "title": "Polimorfismo",
+    "section": "Python Funciona de Outra Forma",
+    "text": "Python Funciona de Outra Forma\n\nSobrecarga de operadores:\n\nPython suporta através da implementação de métodos mágicos."
+  },
+  {
+    "objectID": "slides/11-polimorfismo/11-polimorfismo.html#jupyter-notebook",
+    "href": "slides/11-polimorfismo/11-polimorfismo.html#jupyter-notebook",
+    "title": "Polimorfismo",
+    "section": "Jupyter Notebook",
+    "text": "Jupyter Notebook\n11-polimorfismo\n\n\n\nECT2504 - Programação Orientada a Objetos"
   }
 ]

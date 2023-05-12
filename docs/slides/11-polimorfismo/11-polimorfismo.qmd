@@ -1,0 +1,272 @@
+---
+title: "Polimorfismo"
+title-slide-attributes:
+  data-background-image: ../../assets/img/brasao_ufrn_positivo.png
+  data-background-size: "50%, auto, contain"
+  data-background-opacity: "0.05"
+---
+
+## Objetivo da aula
+
+Nesta aula veremos: 
+
+- O que é polimorfismo
+- *Duck typing*
+- Como a linguagem Python utiliza o polimorfismo
+---
+
+## Os Pilares de POO
+
+- Abstração
+- Encapsulamento
+- Herança
+- __Polimorfismo__
+---
+
+## Polimorfismo
+
+::: {.callout-note appearance="simple"}
+
+Mecanismo presente em linguagens OO que permitem a um objeto se comportar de
+formas diferentes
+
+:::
+
+- _Poli_: muitos, _morfismo_: formas
+- Mais um recurso utilizado para promover a reutilização de código
+- Um mesmo código possui _diferentes_ comportamentos
+---
+
+## Polimorfismo
+
+Na prática, polimorfismo é oferecido por linguagens OO
+através de vários mecanismos.
+
+Estes mecanismos são mostrados a seguir, utilizando códigos
+de outras linguagens.
+
+---
+
+## Polimorfismo em Linguagens Estaticamente Tipadas (Java)
+
+1. Instanciando objetos da classe base utilizando construtores da classe derivada:
+
+```java
+// Gato é uma subclasse de Mamifero
+Mamifero m = new Gato(); 
+// Funcionario é uma subclasse de Pessoa
+Pessoa p = new Funcionario(...); 
+
+// Utilizando casting explicito
+Gato g = new Gato();
+Animal a = (Animal) G ;
+
+// Erro!! Nem toda pessoa é um funcionário
+Funcionario f = new Pessoa(...); 
+```
+
+Podemos atribuir objetos da subclasse a variáveis da superclasse
+---
+
+## Polimorfismo em Linguagens Estaticamente Tipadas (Java)
+
+2. Considere um método que recebe como parâmetro objetos da classe base:
+
+```java
+void imprimeDados(Pessoa p){
+ ...
+}
+
+Funcionario f = new Funcionario(...);
+// Como todo funcionário é uma pessoa,
+// podemos utilizar o método imprimirDados com parâmetro f
+imprimeDados(f); 
+```
+
+Podemos _"substituir"_ o parâmetro do tipo `Pessoa` por um `Funcionario`
+(porque todo `Funcionario` __é uma__ `Pessoa`)
+---
+
+## Polimorfismo em Linguagens Tipadas (Java)
+
+3. _Sobrecarga_ de funções: uma mesma função se comporta de diversas
+   formas, de acordo com seus parâmetros:
+
+```java
+int funcao(int x);
+float funcao(float x);
+char funcao(char x);
+```
+
+A função `funcao` possui diferentes __assinaturas__
+---
+
+## Polimorfismo em Linguagens Tipadas
+
+4. _Sobrecarga_ de operadores: algumas linguagens
+   permitem implementar um método que define o comportamento
+   dos operadores `+`, `-`, `*`, `/`, `>`, `<`, `==`, etc.
+
+- C++ permite
+- C# permite
+- Objective-C **não** permite
+- Java **não** permite
+
+---
+
+## Python Funciona de Outra Forma
+
+1. Objetos da classe base recebendo objetos de classes derivadas:
+
+```java
+Pessoa p = new Funcionario(...); 
+```
+
+Não tem sentido, porque em Python,
+uma variável pode ser atribuída a objetos de classes
+diferentes (que não necessariamente pertencem __à mesma hierarquia__) 
+
+```python 
+x = 4 
+x = [1,2,3]
+x = "alo" 
+x = Pessoa(...) 
+x = Carro(...) 
+```
+---
+
+## Python Funciona de Outra Forma
+
+2. Chamar funções/métodos com instâncias de alguma subclasse
+   como parâmetro:
+
+Como não temos tipos, podemos chamar uma função/método passando
+como parâmetro objetos de classes diferentes:
+
+```python
+str(3)
+str(3.2)
+p = Pessoa(...)
+str(p)
+len("alo")
+len([1,2,3])
+```
+---
+
+## Python Funciona de Outra Forma
+
+3. Sobrecarga de funções: 
+
+```python
+def funcao(x):
+ ...
+
+def funcao(x,y):  # a definição anterior de f é substituída por esta
+ ...
+
+f(4) # Erro! 2 parâmetros são esperados
+```
+
+Em Python, não podemos criar 2 funções com 
+diferentes assinaturas
+
+---
+
+## Python Funciona de Outra Forma
+
+Entretanto, o seguinte código funciona
+perfeitamente:
+
+```python
+class Pessoa:
+    def __init__(self, nome, idade): ...
+
+    def compara_idades(self, p2):
+        return p1.idade <= p2.idade
+
+class Aluno(Pessoa): ...
+class Professor(Pessoa): ...
+
+p = Pessoa('joão', 25)
+a = Aluno('maria', 20, 111) 
+print(p.compara_idades(a)) # método funciona pq um Aluno é uma Pessoa
+```
+---
+
+## Polimorfismo
+
+Com polimorfismo, a chamada dos métodos é
+polimórfica: a mesma chamada pode se comportar
+de diferentes formas, de acordo com a classe
+dos objetos envolvidos
+
+---
+
+## O princípio da substituição de Liskov {.nostretch}
+
+![](Barbara.jpg){width=15% fig-align="center"}
+
+Barbara Liskov, cientista da computação estadunidense conhecida por criar o
+_Princípio de Substituição de Liskov_, por ser uma das primeiras mulheres a
+obter um PhD em Ciência da Computação nos Estados Unidos e pelas suas
+contribuições que levaram ao desenvolvimento de POO
+([Wikipedia](https://pt.wikipedia.org/wiki/Barbara_Liskov)) 
+
+---
+
+## O princípio da substituição de  Liskov
+
+- *Uma classe base deve poder ser substituída pela sua classe derivada*
+- Considere o método `q(x)`. Se `q` pode ser utilizado com objetos da
+  superclasse T, então `q` deve poder também ser chamado com um objeto de
+  uma subclasse `S` derivada de `T`
+---
+
+## Polimorfismo em Python
+
+Python implementa todas as funcionalidades
+apresentadas até então seguindo um conceito
+chamado como _duck typing_
+
+---
+
+## Duck Typing
+
+::: {.callout-note appearance="simple"}
+
+Quando eu vejo um pássaro que anda como pato, nada como um pato
+e grasna como pato, então pra mim este pássaro é um pato
+
+:::
+
+- Princípio utilizado como base da linguagem Python
+- Lembre-se que Python possui tipagem dinâmica: o tipo dos objetos
+  só pode ser determinado na execução  do programa
+---
+
+## Duck Typing
+
+Forma de tipagem que está mais interessada no que o objeto possui como
+atributos/métodos do que se ele é de uma determinada classe
+
+Exemplos de uso de *Duck typing*:
+
+- Quando usamos `print(a)`: não interessa a classe de `a`,
+  o objeto vai ser impresso (e o método ```__str__``` é chamado)
+- Quando usamos `a.liga()`: não interessa se o objeto `a` é
+  da classe `Motor` ou da classe `Lampada`. A chamada irá ter
+  sucesso ser o objeto possuir o método `liga`
+---
+
+## Python Funciona de Outra Forma
+
+4. _Sobrecarga_ de operadores: 
+
+Python suporta através da implementação
+de métodos mágicos.
+
+---
+
+## Jupyter Notebook
+
+[11-polimorfismo](11-Polimorfismo.ipynb)
