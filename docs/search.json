@@ -1412,5 +1412,40 @@
     "title": "Polimorfismo",
     "section": "Jupyter Notebook",
     "text": "Jupyter Notebook\n11-polimorfismo\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/12-heranca-multipla/12-heranca-multipla.html#objetivo-da-aula",
+    "href": "slides/12-heranca-multipla/12-heranca-multipla.html#objetivo-da-aula",
+    "title": "Herança Múltipla",
+    "section": "Objetivo da aula",
+    "text": "Objetivo da aula\n\nApresentar o mecanismo de herança múltipla:\n\nO que é herança múltipla\nComo utilizá-lo na linguagem Python"
+  },
+  {
+    "objectID": "slides/12-heranca-multipla/12-heranca-multipla.html#herança",
+    "href": "slides/12-heranca-multipla/12-heranca-multipla.html#herança",
+    "title": "Herança Múltipla",
+    "section": "Herança",
+    "text": "Herança\n\nPermite que classes derivadas herdem o comportamento (atributos e métodos) de uma classe base\nIntroduz a relação “é um”\nCódigo na classe base pode ser reutilizado nas classes derivadas\nClasse derivada pode reimplementar um método com funcionalidades específicas"
+  },
+  {
+    "objectID": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla",
+    "href": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla",
+    "title": "Herança Múltipla",
+    "section": "Herança Múltipla",
+    "text": "Herança Múltipla\nPermite que a classe derivada possua mais de uma classe base\nEm Python, as classes base são indicadas por uma tupla:\nclass Subclasse(Superclasse1, Superclasse2):\n...\n\nSubclasse é a classe derivada\nTodos os atributos e métodos de Superclasse1 e Superclasse2 estão na subclasse"
+  },
+  {
+    "objectID": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla-1",
+    "href": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla-1",
+    "title": "Herança Múltipla",
+    "section": "Herança Múltipla",
+    "text": "Herança Múltipla\nAs superclasses também podem ser classes abstratas\nTodos os métodos abstratos de todas as superclasses abstratas têm que ser implementados para que a subclasse seja concreta\nCaso contrário, a subclasse se torna uma classe abstrata"
+  },
+  {
+    "objectID": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla-2",
+    "href": "slides/12-heranca-multipla/12-heranca-multipla.html#herança-múltipla-2",
+    "title": "Herança Múltipla",
+    "section": "Herança Múltipla",
+    "text": "Herança Múltipla\nO Jupyter Notebook contém exemplos práticos e problemas que podem acontecer com herança múltipla\n\n\n\nECT2504 - Programação Orientada a Objetos"
   }
 ]

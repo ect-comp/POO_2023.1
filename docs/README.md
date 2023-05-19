@@ -70,14 +70,14 @@ Notas de aula e exercícios [10-Classes-Abstratas.ipynb](./slides/10-classes-abs
 
 Notas de aula e exercícios [11-Polimorfismo.ipynb](./slides/11-polimorfismo/11-Polimorfismo.ipynb)
 
-<!--
-
-## [12 - 31/05 - Herança Múltipla](./12-heranca-multipla)
+## [12 - 31/05 - Herança Múltipla](./slides/12-heranca-multipla/12-heranca-multipla.html)
  - Herança múltipla
  - Problemas comuns com herança múltipla
  - *Method resolution order* (MRO)
 
-Anotações e exercícios da aula (Jupyter notebook) [12-Heranca-Multipla.ipynb](./12-heranca-multipla/12-Heranca-Multipla.ipynb)
+Notas de aula e exercícios [12-Heranca-Multipla.ipynb](./slides/12-heranca-multipla/12-Heranca-Multipla.ipynb)
+
+<!--
 
 ## [13 - 07/06 - Documentação em Python (Jupyter notebook)](./13-documentacao/13-Documentacao.ipynb)
 
