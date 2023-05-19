@@ -70,7 +70,7 @@ Notas de aula e exercícios [10-Classes-Abstratas.ipynb](./slides/10-classes-abs
 
 Notas de aula e exercícios [11-Polimorfismo.ipynb](./slides/11-polimorfismo/11-Polimorfismo.ipynb)
 
-## [12 - 31/05 - Herança Múltipla](./slides/12-heranca-multipla/12-heranca-multipla.html)
+## [23/05 - Herança Múltipla](./slides/12-heranca-multipla/12-heranca-multipla.html)
  - Herança múltipla
  - Problemas comuns com herança múltipla
  - *Method resolution order* (MRO)
