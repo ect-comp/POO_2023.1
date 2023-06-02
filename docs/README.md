@@ -79,7 +79,7 @@ Notas de aula e exercícios [12-Heranca-Multipla.ipynb](./slides/12-heranca-mult
 
 ## [30/05 - Documentação em Python (Jupyter notebook)](./slides/13-documentacao/13-Documentacao.ipynb)
 
-## [14 - 14/06 - Erros e Exceções](./slides/14-excecoes/14-excecoes.html)
+## [06/06 - Erros e Exceções](./slides/14-excecoes/14-excecoes.html)
  - Erros e exceções
  - Tratamento de erros
  - Definição de exceções
