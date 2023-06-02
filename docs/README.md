@@ -79,14 +79,14 @@ Notas de aula e exercícios [12-Heranca-Multipla.ipynb](./slides/12-heranca-mult
 
 ## [30/05 - Documentação em Python (Jupyter notebook)](./slides/13-documentacao/13-Documentacao.ipynb)
 
-<!--
-
 ## [14 - 14/06 - Erros e Exceções](./14-excecoes)
  - Erros e exceções
  - Tratamento de erros
  - Definição de exceções
 
-Anotações e exercícios da aula (Jupyter notebook) [14-Excecoes.ipynb](./14-excecoes/14-Excecoes.ipynb)
+Notas de aula e exercícios [14-Excecoes.ipynb](./slides/14-excecoes/14-Excecoes.ipynb)
+
+<!--
 
 ## [15 - 21/06 - Interfaces Gráficas](./15-gui)
 - Interfaces gráficas em Python com Tkinter

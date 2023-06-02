@@ -1447,5 +1447,96 @@
     "title": "Herança Múltipla",
     "section": "Herança Múltipla",
     "text": "Herança Múltipla\nO Jupyter Notebook contém exemplos práticos e problemas que podem acontecer com herança múltipla\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\nConsidere os métodos a seguir:\n@nome.setter\ndef nome(self, n):\n    '''Set para o nome de uma pessoa'''\n    if type(n) == str:\n        self._nome = n\n    else:\n        print('n precisa ser do tipo string')\ndef registraEntrada(self):\n    '''Entra um carro'''\n    if self.vagas > 0:\n        self.vagas -= 1\n        print(\"Um carro entrou.\")\n    else:\n        print(\"Estacionamento sem vagas\")"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação-1",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação-1",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\n\nO programa apenas imprime uma mensagem de erro\nEntretanto, a execução do programa continua\nComo fazer para o programa encerrar a sua execução?"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação-2",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação-2",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\nMais ainda:\n\nComo notificar o restante do programa que a execução do método não foi bem sucedida?\nComo tratar/detectar (por exemplo, por quem chamou o método) que a execução do método não foi bem sucedida?"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação-3",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação-3",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\nEstamos interessados em fazer o programa “emitir um erro”:\n\nEmitir erro: notificar e encerrar o programa\nFazer o programa “Levantar uma exceção”\n\nDo inglês “raise an exception”\nTambém conhecido em português como “lançar uma exceção” ou “subir uma exceção”"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação-4",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação-4",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\nVocê já deve ter se deparado com alguns erros em Python:\n\nÍndice não valido (fora dos limites):\n\n\nIndexError: list index out of range\n\n\nDivisão por 0:\n\n\nZeroDivisionError: division by zero"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#motivação-5",
+    "href": "slides/14-excecoes/14-excecoes.html#motivação-5",
+    "title": "Tratamento de Exceções",
+    "section": "Motivação",
+    "text": "Motivação\nVocê já deve ter se deparado com alguns erros em Python:\n\nUma variável inexistente é utilizada:\n\n\nNameError: name x is not defined"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#objetivo",
+    "href": "slides/14-excecoes/14-excecoes.html#objetivo",
+    "title": "Tratamento de Exceções",
+    "section": "Objetivo",
+    "text": "Objetivo\nApresentar o mecanismo de tratamento de exceções:\n\nO que é uma exceção\nComo levantar exceções em Python\nComo tratar exceções em Python\nComo implementar classes que representam exceções em Python"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento",
+    "href": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento",
+    "title": "Tratamento de Exceções",
+    "section": "Exceções e Tratamento",
+    "text": "Exceções e Tratamento\n\nUma exceção é um erro não necessariamente fatal detectável na execução de um programa\n\nDiferente de erro de compilação\n\nPara levantar uma exceção, utilizamos o comando raise\n\nSimilar ao comando throw de Java e C++"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento-1",
+    "href": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento-1",
+    "title": "Tratamento de Exceções",
+    "section": "Exceções e Tratamento",
+    "text": "Exceções e Tratamento\n\nException é a superclasse das exceções definidas pelo usuário\nA lista de classes de exceções predefinidas em Python está aqui"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento-2",
+    "href": "slides/14-excecoes/14-excecoes.html#exceções-e-tratamento-2",
+    "title": "Tratamento de Exceções",
+    "section": "Exceções e Tratamento",
+    "text": "Exceções e Tratamento\n\n\n\n\n\n(Imagem de Stanford Python Course (link))"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#tratamento-de-exceções",
+    "href": "slides/14-excecoes/14-excecoes.html#tratamento-de-exceções",
+    "title": "Tratamento de Exceções",
+    "section": "Tratamento de Exceções",
+    "text": "Tratamento de Exceções\n\nApós levantada, uma exceção pode ser tratada\nTratamento de exceções: trecho de código responsável por fazer o programa se recuperar da exceção levantada\nDe acordo com a classe da exceção, o programa pode tratá-la de forma diferente"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#ideia-geral",
+    "href": "slides/14-excecoes/14-excecoes.html#ideia-geral",
+    "title": "Tratamento de Exceções",
+    "section": "Ideia Geral",
+    "text": "Ideia Geral\n\nA cláusula try contém um bloco de código que pode levantar exceções. Ela tenta executar o bloco de comando nela contido\nSe uma exceção for levantada dentro do try, o fluxo do programa é redirecionado para a cláusula except\n\ntry:\n    # Tenta executar o bloco\nexcept: \n    #tratamento"
+  },
+  {
+    "objectID": "slides/14-excecoes/14-excecoes.html#exceções",
+    "href": "slides/14-excecoes/14-excecoes.html#exceções",
+    "title": "Tratamento de Exceções",
+    "section": "Exceções",
+    "text": "Exceções\nMais detalhes sobre exceções no Notebook\n\n\n\nECT2504 - Programação Orientada a Objetos"
   }
 ]

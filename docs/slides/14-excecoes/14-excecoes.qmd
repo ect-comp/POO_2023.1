@@ -1,0 +1,143 @@
+---
+title: "Tratamento de Exceções"
+title-slide-attributes:
+  data-background-image: ../../assets/img/brasao_ufrn_positivo.png
+  data-background-size: "50%, auto, contain"
+  data-background-opacity: "0.05"
+---
+
+## Motivação
+
+Considere os métodos a seguir:
+
+```python
+@nome.setter
+def nome(self, n):
+    '''Set para o nome de uma pessoa'''
+    if type(n) == str:
+        self._nome = n
+    else:
+        print('n precisa ser do tipo string')
+```
+
+```python
+def registraEntrada(self):
+    '''Entra um carro'''
+    if self.vagas > 0:
+        self.vagas -= 1
+        print("Um carro entrou.")
+    else:
+        print("Estacionamento sem vagas")
+```
+---
+
+## Motivação
+
+- O programa apenas *imprime* uma mensagem de erro
+- Entretanto, a execução do programa *continua*
+- Como fazer para o programa encerrar a sua execução?
+
+---
+
+## Motivação
+
+Mais ainda:
+
+- Como *notificar* o restante do programa que a
+  execução do método não foi bem sucedida?
+- Como **tratar/detectar** (por exemplo, por quem chamou o método)
+  que a execução do método não foi bem sucedida?
+---
+
+## Motivação
+
+Estamos interessados em fazer o programa "emitir um erro":
+
+- Emitir erro: notificar **e encerrar o programa**
+- Fazer o programa "*Levantar uma exceção*"
+    - Do inglês "*raise an exception*"
+    - Também conhecido em português como "lançar uma exceção" ou
+      "subir uma exceção"
+---
+
+## Motivação
+
+Você já deve ter se deparado com alguns erros em Python:
+
+- Índice não valido (fora dos limites):
+
+> `IndexError: list index out of range`
+
+- Divisão por 0:
+
+> `ZeroDivisionError: division by zero`
+---
+
+## Motivação
+
+Você já deve ter se deparado com alguns erros em Python:
+
+- Uma variável inexistente é utilizada:
+
+> `NameError: name x is not defined`
+---
+
+## Objetivo
+
+Apresentar o mecanismo de tratamento de exceções:
+
+- O que é uma exceção
+- Como levantar exceções em Python
+- Como tratar exceções em Python
+- Como implementar classes que representam exceções em Python
+---
+
+## Exceções e Tratamento
+
+- Uma exceção é um erro não necessariamente fatal detectável na execução de um programa
+    - Diferente de erro de compilação
+- Para **levantar uma exceção**,  utilizamos o comando `raise`
+    - Similar ao comando `throw` de Java e C++
+---
+
+## Exceções e Tratamento
+
+- `Exception` é a superclasse das exceções definidas pelo usuário
+- A lista de classes de exceções predefinidas em Python está
+  [aqui](https://docs.python.org/3/library/exceptions.html)
+---
+
+## Exceções e Tratamento {.nostretch}
+
+![](python_excecoes.png){width=85% fig-align="center"}
+
+(Imagem de [*Stanford Python Course* (link)](https://drive.google.com/file/d/0B-eHIhYpHrGDWUtObjZ5MDI0dHc/view))
+---
+
+## Tratamento de Exceções
+
+- Após levantada, uma exceção pode ser **tratada**
+- Tratamento de exceções: trecho de código responsável por fazer o programa se
+  recuperar da exceção levantada
+- De acordo com a classe da exceção, o programa pode tratá-la de forma diferente
+---
+
+## Ideia Geral 
+
+- A cláusula `try` contém um bloco de código que pode levantar exceções. 
+  Ela *tenta* executar o bloco de comando nela contido
+- Se uma exceção for levantada dentro do `try`,
+  o fluxo do programa é redirecionado para a cláusula `except`
+
+```python
+try:
+    # Tenta executar o bloco
+except: 
+    #tratamento
+```
+---
+
+## Exceções
+
+Mais detalhes sobre exceções
+no [Notebook](14-excecoes.ipynb)
