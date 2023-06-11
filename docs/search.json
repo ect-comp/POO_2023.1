@@ -1538,5 +1538,61 @@
     "title": "Tratamento de Exceções",
     "section": "Exceções",
     "text": "Exceções\nMais detalhes sobre exceções no Notebook\n\n\n\nECT2504 - Programação Orientada a Objetos"
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#motivação",
+    "href": "slides/15-gui/15-gui.html#motivação",
+    "title": "Interfaces Gráficas",
+    "section": "Motivação",
+    "text": "Motivação\n\nA grande maioria dos aplicativos utilizados por nós possui uma interface gráfica\n\nJanela com vários componentes em que o usuário pode inserir comandos\n\nInterfaces gráficas melhoram significativamente a usabilidade de um programa"
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#motivação-1",
+    "href": "slides/15-gui/15-gui.html#motivação-1",
+    "title": "Interfaces Gráficas",
+    "section": "Motivação",
+    "text": "Motivação\nExistem diversas opções de interfaces gráficas em Python:\n\nGTK (Gnome Toolkit)\nQT\nWxwidgets\netc."
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#motivação-2",
+    "href": "slides/15-gui/15-gui.html#motivação-2",
+    "title": "Interfaces Gráficas",
+    "section": "Motivação",
+    "text": "Motivação\nNa disciplina de POO, iremos trabalhar com a interface gráfica Tk:\n\nTkinter: Tk Interface\nConsiderada padrão para a linguagem Python\nKit de ferramentas com várias opções e de fácil utilização\nMultiplataforma"
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#interfaces-gráficas",
+    "href": "slides/15-gui/15-gui.html#interfaces-gráficas",
+    "title": "Interfaces Gráficas",
+    "section": "Interfaces Gráficas",
+    "text": "Interfaces Gráficas\nProgramar uma aplicação com interface gráfica requer utilizar widgets (window gadgets): componentes de uma interface gráfica"
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#interfaces-gráficas-1",
+    "href": "slides/15-gui/15-gui.html#interfaces-gráficas-1",
+    "title": "Interfaces Gráficas",
+    "section": "Interfaces Gráficas",
+    "text": "Interfaces Gráficas\nAlguns tipos de widgets:\n\nLabel (rótulo)\nBotão\nCampo para entrada de texto\nBarra de menu\nBarra de rolagem\netc."
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#interfaces-gráficas-2",
+    "href": "slides/15-gui/15-gui.html#interfaces-gráficas-2",
+    "title": "Interfaces Gráficas",
+    "section": "Interfaces Gráficas",
+    "text": "Interfaces Gráficas\nDesenvolver uma interface gráfica envolve:\n\nPosicionar e configurar os widgets e suas propriedades (cores, fontes, tamanho, etc.)\nProgramar como o sistema deve reagir a eventos ao longo da sua execução:\n\nClique de mouse, movimento de mouse, clique de botão, minimização de janela, seleção de texto, seleção de item em uma lista, etc."
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#interfaces-gráficas-3",
+    "href": "slides/15-gui/15-gui.html#interfaces-gráficas-3",
+    "title": "Interfaces Gráficas",
+    "section": "Interfaces Gráficas",
+    "text": "Interfaces Gráficas\n\nPortanto, o desenvolvimento de interfaces gráficas corresponde a uma camada a mais no desenvolvimento do programa como um todo\nIdealmente: o código correspondente à interface gráfica deve estar em um módulo separado da lógica do programa\nOrientação a objetos facilita esta modularização"
+  },
+  {
+    "objectID": "slides/15-gui/15-gui.html#interfaces-gráficas-4",
+    "href": "slides/15-gui/15-gui.html#interfaces-gráficas-4",
+    "title": "Interfaces Gráficas",
+    "section": "Interfaces Gráficas",
+    "text": "Interfaces Gráficas\nJupyter notebook\n\n\n\nECT2504 - Programação Orientada a Objetos"
   }
 ]

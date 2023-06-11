@@ -86,9 +86,7 @@ Notas de aula e exercícios [12-Heranca-Multipla.ipynb](./slides/12-heranca-mult
 
 Notas de aula e exercícios [14-Excecoes.ipynb](./slides/14-excecoes/14-Excecoes.ipynb)
 
-<!--
-
-## [15 - 21/06 - Interfaces Gráficas](./15-gui)
+## [13/06 - Interfaces Gráficas](./slides/15-GUI/15-gui.html)
 - Interfaces gráficas em Python com Tkinter
 - Componentes (widgets):
    - *label*
@@ -96,7 +94,9 @@ Notas de aula e exercícios [14-Excecoes.ipynb](./slides/14-excecoes/14-Excecoes
    - *entry*
    - *button*
 
-Anotações e exercícios da aula (Jupyter notebook) [15-GUI.ipynb](./15-gui/15-GUI.ipynb)
+Notas de aula e exercícios [15-GUI.ipynb](./slides/15-gui/15-GUI.ipynb)
+
+<!--
 
 [Solução para a calculadora](./15-gui/calculadora_resolucao.ipynb)
 
