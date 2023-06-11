@@ -140,4 +140,4 @@ except:
 ## Exceções
 
 Mais detalhes sobre exceções
-no [Notebook](14-excecoes.ipynb)
+no [Notebook](14-Excecoes.ipynb)
