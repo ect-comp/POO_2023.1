@@ -98,11 +98,11 @@ Notas de aula e exercícios [15-GUI.ipynb](./slides/15-gui/15-GUI.ipynb)
 
 ## [20/06 - GUI 2 (Jupyter notebook)](./slides/16-gui2/16-GUI2.ipynb)
 
+## [27/06 - Padrão de Projeto MVC (Jupyter notebook)](./slides/17-mvc/17-MVC.ipynb)
+
 <!--
 
 [Solução para a calculadora](./15-gui/calculadora_resolucao.ipynb)
-
-## [16 - 28/06 - Padrão de Projeto MVC (Jupyter notebook)](./16-mvc/16-MVC.ipynb)
 
 ## [18 - 05/07 - Projeto Final (Jupyter notebook)](./18-projeto-final/Projeto_Final_2022.1.ipynb)
 
