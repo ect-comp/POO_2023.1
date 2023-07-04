@@ -100,6 +100,10 @@ Notas de aula e exercícios [15-GUI.ipynb](./slides/15-gui/15-GUI.ipynb)
 
 ## [27/06 - Padrão de Projeto MVC (Jupyter notebook)](./slides/17-mvc/17-MVC.ipynb)
 
+## 04/07 - Projeto Final I: Ver SIGAA
+
+## 06/07 - Projeto Final I: Ver SIGAA
+
 <!--
 
 [Solução para a calculadora](./15-gui/calculadora_resolucao.ipynb)
